@@ -13,14 +13,22 @@ $pageDescription = 'Professional web development services including React, Next.
 $pageKeywords = 'web development, digital marketing, AI solutions, React, Next.js, WordPress';
 
 // Get testimonials from database
-$testimonials_query = "SELECT * FROM testimonials WHERE is_featured = 1 ORDER BY display_order, created_at DESC LIMIT 4";
-$testimonials_result = $conn->query($testimonials_query);
 $testimonials = [];
+try {
+    $testimonials_query = "SELECT * FROM testimonials WHERE is_featured = 1 ORDER BY display_order, created_at DESC LIMIT 4";
+    $testimonials_result = $conn->query($testimonials_query);
 
-if ($testimonials_result && $testimonials_result->num_rows > 0) {
-    while ($row = $testimonials_result->fetch_assoc()) {
-        $testimonials[] = $row;
+    if ($testimonials_result && $testimonials_result->num_rows > 0) {
+        while ($row = $testimonials_result->fetch_assoc()) {
+            $testimonials[] = $row;
+        }
     }
+} catch (Exception $e) {
+    // Log the error
+    error_log("Testimonials Error: " . $e->getMessage());
+    
+    // Continue execution with empty testimonials array
+    // The fallback testimonials in the HTML will be used
 }
 
 // Include header

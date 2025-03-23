@@ -22,6 +22,9 @@ if ($conn->connect_error) {
 // Set charset
 $conn->set_charset("utf8");
 
+// Run database setup to ensure all required tables exist
+require_once __DIR__ . '/db_setup.php';
+
 // Site configuration
 $site_config = [
     'site_name' => 'StartupAI',
