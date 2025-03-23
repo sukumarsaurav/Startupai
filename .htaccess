@@ -1,5 +1,12 @@
 RewriteEngine On
 
+# Custom error pages
+ErrorDocument 400 /pages/error.php?code=400
+ErrorDocument 401 /pages/error.php?code=401
+ErrorDocument 403 /pages/error.php?code=403
+ErrorDocument 404 /pages/error.php?code=404
+ErrorDocument 500 /pages/error.php?code=500
+
 # Remove .php extension
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
@@ -41,4 +48,19 @@ RewriteRule ^(.*)$ index.php [L,QSA]
     Header set X-Content-Type-Options "nosniff"
     Header set X-Frame-Options "SAMEORIGIN"
     Header set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+</IfModule>
+
+# PHP settings
+<IfModule mod_php7.c>
+    # Maximum execution time of each script, in seconds
+    php_value max_execution_time 60
+    
+    # Maximum amount of memory a script may consume
+    php_value memory_limit 128M
+    
+    # Maximum size of POST data that PHP will accept
+    php_value post_max_size 20M
+    
+    # Maximum allowed size for uploaded files
+    php_value upload_max_filesize 10M
 </IfModule> 
