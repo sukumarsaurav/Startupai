@@ -160,6 +160,236 @@ $why_hire_us_content = [
                 'delay' => 300
             ]
         ]
+    ],
+    'ai-chatbot' => [
+        'service_name' => 'AI Chatbot Solutions',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-brain',
+                'title' => 'Advanced AI Technology',
+                'description' => 'Our chatbots leverage cutting-edge AI and natural language processing to deliver human-like conversations.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-cog',
+                'title' => 'Custom Development',
+                'description' => 'We create tailor-made chatbot solutions that align with your brand voice and business objectives.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-chart-line',
+                'title' => 'Continuous Improvement',
+                'description' => 'Our chatbots learn from interactions over time, continuously improving their performance and accuracy.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'machine-learning' => [
+        'service_name' => 'Machine Learning Solutions',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-database',
+                'title' => 'Data Expertise',
+                'description' => 'Our team specializes in transforming your data into actionable insights and predictive models.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-puzzle-piece',
+                'title' => 'Tailored Algorithms',
+                'description' => 'We develop custom machine learning algorithms designed to solve your specific business challenges.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-rocket',
+                'title' => 'Scalable Solutions',
+                'description' => 'Our machine learning solutions are built to scale alongside your business and evolving needs.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'ai-agent' => [
+        'service_name' => 'AI Agent Development',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-robot',
+                'title' => 'Intelligent Automation',
+                'description' => 'Our AI agents automate complex tasks while adapting to changing conditions and requirements.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-sitemap',
+                'title' => 'Multi-System Integration',
+                'description' => 'We create AI agents that seamlessly integrate with your existing tools and workflows.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-user-shield',
+                'title' => 'Secure and Reliable',
+                'description' => 'Our AI agent solutions prioritize security, stability, and consistent performance.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'voice-agent' => [
+        'service_name' => 'Voice Agent Solutions',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-microphone-alt',
+                'title' => 'Natural Voice Interactions',
+                'description' => 'We create voice agents with natural-sounding speech and human-like conversational abilities.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-language',
+                'title' => 'Advanced NLP',
+                'description' => 'Our voice solutions use sophisticated natural language processing to understand user intent accurately.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-headset',
+                'title' => 'Omnichannel Support',
+                'description' => 'Our voice agents connect with multiple platforms and channels for a unified customer experience.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'react-development' => [
+        'service_name' => 'React Development',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-bolt',
+                'title' => 'High Performance',
+                'description' => 'We build React applications that are fast, responsive, and optimized for excellent user experience.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-code',
+                'title' => 'Clean Code Architecture',
+                'description' => 'Our developers follow best practices for maintainable, scalable, and efficient React code.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-mobile-alt',
+                'title' => 'Cross-Platform Solutions',
+                'description' => 'We create React applications that work seamlessly across web, mobile, and desktop platforms.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'nextjs-development' => [
+        'service_name' => 'Next.js Development',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-rocket',
+                'title' => 'Optimized Performance',
+                'description' => 'Our Next.js applications are built for speed with server-side rendering and static generation.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-search',
+                'title' => 'SEO-Friendly Structure',
+                'description' => 'We develop Next.js sites with excellent search engine visibility and performance.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-expand-arrows-alt',
+                'title' => 'Scalable Architecture',
+                'description' => 'Our Next.js solutions grow with your business, from startup to enterprise scale.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'woocommerce' => [
+        'service_name' => 'WooCommerce Development',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-shopping-cart',
+                'title' => 'Custom E-commerce Solutions',
+                'description' => 'We build tailored WooCommerce stores that match your unique business requirements and workflows.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-credit-card',
+                'title' => 'Secure Transactions',
+                'description' => 'Our WooCommerce implementations prioritize payment security and PCI compliance.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-chart-line',
+                'title' => 'Growth-Ready Platform',
+                'description' => 'We create scalable WooCommerce solutions that evolve as your business expands.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'responsive-design' => [
+        'service_name' => 'Responsive Web Design',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-mobile-alt',
+                'title' => 'Device Compatibility',
+                'description' => 'We create websites that provide optimal viewing experience across all devices and screen sizes.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-tachometer-alt',
+                'title' => 'Performance Optimized',
+                'description' => 'Our responsive designs are built for speed, ensuring fast loading times on mobile networks.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-universal-access',
+                'title' => 'Accessibility Focus',
+                'description' => 'We design with accessibility in mind, ensuring your website works for all users.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'figma-design' => [
+        'service_name' => 'Figma Design',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-pencil-ruler',
+                'title' => 'Collaborative Design Process',
+                'description' => 'We leverage Figma\'s collaborative features to keep you involved in every step of the design process.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-palette',
+                'title' => 'Modern Design Systems',
+                'description' => 'Our Figma designs include comprehensive design systems for consistent user experience.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-redo',
+                'title' => 'Rapid Prototyping',
+                'description' => 'We create interactive prototypes that allow you to experience your design before development begins.',
+                'delay' => 300
+            ]
+        ]
+    ],
+    'xd-design' => [
+        'service_name' => 'Adobe XD Design',
+        'reasons' => [
+            [
+                'icon' => 'fas fa-object-group',
+                'title' => 'Intuitive User Interfaces',
+                'description' => 'We create intuitive and visually appealing interfaces that enhance user experience.',
+                'delay' => 100
+            ],
+            [
+                'icon' => 'fas fa-desktop',
+                'title' => 'Interactive Prototypes',
+                'description' => 'Our XD prototypes demonstrate real interactions and flows, helping visualize the final product.',
+                'delay' => 200
+            ],
+            [
+                'icon' => 'fas fa-sync',
+                'title' => 'Seamless Handoff',
+                'description' => 'We ensure smooth transition from design to development with detailed specifications and assets.',
+                'delay' => 300
+            ]
+        ]
     ]
 ];
 
