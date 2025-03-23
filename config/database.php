@@ -1,9 +1,9 @@
 <?php
 class Database {
     private $host = "localhost";
-    private $db_name = "startupai";
-    private $username = "root";
-    private $password = "";
+    private $db_name = "u911550082_startupai";
+    private $username = "u911550082_startupai";
+    private $password = "r9[T!LCxpD";
     private $conn;
 
     // Get database connection
