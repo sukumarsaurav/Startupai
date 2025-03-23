@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional React Native Development Services - Create native mobile apps with a single codebase">
+    <title>React Native Development Services - StartupAI</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+</head>
+<body>
+    <!-- Drawer Overlay -->
+    <div class="drawer-overlay"></div>
+    
+    <!-- Side Drawer -->
+    <div class="side-drawer">
+        <div class="drawer-header">
+            <a href="../../../index.html" class="drawer-logo">StartupAI</a>
+            <button class="drawer-close"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="drawer-body">
+            <nav class="drawer-nav">
+                <a href="../../../index.html" class="drawer-item">Home</a>
+                <a href="#" class="drawer-item dropdown-toggle">Web Design</a>
+                <div class="drawer-submenu">
+                    <a href="../../services/web-design/responsive-design.html">Responsive Design</a>
+                    <a href="../../services/web-design/ui-ux-design.html">UI/UX Design</a>
+                    <a href="../../services/web-design/e-commerce-design.html">E-commerce Design</a>
+                    <a href="../../services/web-design/figma-design.html">Figma Design</a>
+                    <a href="../../services/web-design/xd-design.html">XD Design</a>
+                </div>
+                <a href="#" class="drawer-item dropdown-toggle">App Development</a>
+                <div class="drawer-submenu">
+                    <a href="../../services/app-development/react-development.html">React Development</a>
+                    <a href="../../services/app-development/nextjs-development.html">Next.js Development</a>
+                    <a href="../../services/app-development/wordpress.html">WordPress</a>
+                    <a href="../../services/app-development/woocommerce.html">WooCommerce</a>
+                </div>
+                <a href="#" class="drawer-item dropdown-toggle active">Mobile Apps</a>
+                <div class="drawer-submenu">
+                    <a href="../../services/mobile-apps/flutter-development.html">Flutter Development</a>
+                    <a href="../../services/mobile-apps/react-native.html" class="active">React Native</a>
+                    <a href="../../services/mobile-apps/swift-development.html">Swift Development</a>
+                    <a href="../../services/mobile-apps/kotlin-development.html">Kotlin Development</a>
+                </div>
+                <a href="#" class="drawer-item dropdown-toggle">AI Services</a>
+                <div class="drawer-submenu">
+                    <a href="../../services/ai-services/ai-chatbot.html">AI Chatbot</a>
+                    <a href="../../services/ai-services/machine-learning.html">Machine Learning</a>
+                    <a href="../../services/ai-services/ai-agent.html">AI Agent</a>
+                    <a href="../../services/ai-services/voice-agent.html">Voice Agent</a>
+                </div>
+                <a href="#" class="drawer-item dropdown-toggle">Digital Marketing</a>
+                <div class="drawer-submenu">
+                    <a href="../../services/digital-marketing/seo.html">SEO</a>
+                    <a href="../../services/digital-marketing/content-marketing.html">Content Marketing</a>
+                    <a href="../../services/digital-marketing/social-media.html">Social Media Marketing</a>
+                    <a href="../../services/digital-marketing/email-marketing.html">Email Marketing</a>
+                    <a href="../../services/digital-marketing/google-ads.html">Google Ads</a>
+                </div>
+                <a href="../../about.html" class="drawer-item">About Us</a>
+                <a href="../../blog/index.html" class="drawer-item">Blog</a>
+                <a href="../../contact.html" class="drawer-item">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Top Navigation -->
+    <div class="top-nav">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <a href="../../../index.html" class="logo">StartupAI</a>
+                </div>
+                <div class="col-md-6 text-end">
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" id="drawerToggle">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../../index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="webDesignDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Web Design
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="webDesignDropdown">
+                            <li><a class="dropdown-item" href="../../services/web-design/responsive-design.html">Responsive Design</a></li>
+                            <li><a class="dropdown-item" href="../../services/web-design/ui-ux-design.html">UI/UX Design</a></li>
+                            <li><a class="dropdown-item" href="../../services/web-design/e-commerce-design.html">E-commerce Design</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="appDevDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            App Development
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="appDevDropdown">
+                            <li><a class="dropdown-item" href="../../services/app-development/react-development.html">React Development</a></li>
+                            <li><a class="dropdown-item" href="../../services/app-development/nextjs-development.html">Next.js Development</a></li>
+                            <li><a class="dropdown-item" href="../../services/app-development/wordpress.html">WordPress</a></li>
+                            <li><a class="dropdown-item" href="../../services/app-development/woocommerce.html">WooCommerce</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="mobileAppsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mobile Apps
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="mobileAppsDropdown">
+                            <li><a class="dropdown-item" href="../../services/mobile-apps/flutter-development.html">Flutter Development</a></li>
+                            <li><a class="dropdown-item active" href="../../services/mobile-apps/react-native.html">React Native</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aiServicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            AI Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="aiServicesDropdown">
+                            <li><a class="dropdown-item" href="../../services/ai-services/ai-chatbot.html">AI Chatbot</a></li>
+                            <li><a class="dropdown-item" href="../../services/ai-services/machine-learning.html">Machine Learning</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="digitalMarketingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Digital Marketing
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="digitalMarketingDropdown">
+                            <li><a class="dropdown-item" href="../../services/digital-marketing/seo.html">SEO</a></li>
+                            <li><a class="dropdown-item" href="../../services/digital-marketing/content-marketing.html">Content Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../blog/index.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Page Header -->
+    <header class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="fw-bold" data-aos="fade-up">React Native Development</h1>
+                    <p class="lead" data-aos="fade-up" data-aos-delay="100">
+                        Build native mobile applications for iOS and Android using JavaScript and React
+                    </p>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Service Overview -->
+    <section class="service-overview py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <img src="../../../assets/images/services/react-native.jpg" alt="React Native Development" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h2 class="mb-4">Native Mobile Apps with JavaScript</h2>
+                    <p>
+                        React Native is a powerful framework that allows developers to build mobile applications using JavaScript and React. Our React Native development services focus on creating high-performance, cross-platform mobile applications that provide a native user experience across iOS and Android platforms.
+                    </p>
+                    <div class="features mt-4">
+                        <div class="feature d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3">
+                                <i class="fas fa-mobile-alt text-primary"></i>
+                            </div>
+                            <div>
+                                <h5>Cross-Platform Development</h5>
+                                <p>Build for both iOS and Android from a single codebase, saving time and resources.</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3">
+                                <i class="fas fa-bolt text-primary"></i>
+                            </div>
+                            <div>
+                                <h5>Native Performance</h5>
+                                <p>Achieve near-native performance with optimized React Native components and modules.</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3">
+                                <i class="fas fa-sync text-primary"></i>
+                            </div>
+                            <div>
+                                <h5>Redux Integration</h5>
+                                <p>Implement robust state management with Redux for scalable application architecture.</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex align-items-start mb-3">
+                            <div class="feature-icon me-3">
+                                <i class="fas fa-plug text-primary"></i>
+                            </div>
+                            <div>
+                                <h5>Third-Party Library Integration</h5>
+                                <p>Seamlessly integrate with third-party libraries and native modules for extended functionality.</p>
+                            </div>
+                        </div>
+                        <div class="feature d-flex align-items-start">
+                            <div class="feature-icon me-3">
+                                <i class="fas fa-wifi-slash text-primary"></i>
+                            </div>
+                            <div>
+                                <h5>Offline Capability</h5>
+                                <p>Build apps that work offline with local data storage and synchronization.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Process -->
+    <section class="process-section py-5 bg-light">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12 text-center" data-aos="fade-up">
+                    <h2 class="section-title">Our React Native Development Process</h2>
+                    <p class="section-description">
+                        A proven approach to delivering successful React Native applications
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 mb-4 mb-md-0" data-aos="fade-up">
+                    <div class="process-step text-center p-4 h-100 bg-white rounded shadow-sm">
+                        <div class="process-icon mb-3">
+                            <i class="fas fa-search fa-3x text-primary"></i>
+                        </div>
+                        <h4>Discovery</h4>
+                        <p>We analyze your requirements, define app functionality, and create a development roadmap.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                    <div class="process-step text-center p-4 h-100 bg-white rounded shadow-sm">
+                        <div class="process-icon mb-3">
+                            <i class="fas fa-pencil-ruler fa-3x text-primary"></i>
+                        </div>
+                        <h4>UI/UX Design</h4>
+                        <p>Our designers create intuitive, platform-specific user interfaces that follow both iOS and Android guidelines.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="200">
+                    <div class="process-step text-center p-4 h-100 bg-white rounded shadow-sm">
+                        <div class="process-icon mb-3">
+                            <i class="fas fa-code fa-3x text-primary"></i>
+                        </div>
+                        <h4>Development</h4>
+                        <p>We build your app with clean, maintainable code using React Native best practices and patterns.</p>
+                    </div>
+                </div>
+                <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+                    <div class="process-step text-center p-4 h-100 bg-white rounded shadow-sm">
+                        <div class="process-icon mb-3">
+                            <i class="fas fa-check-circle fa-3x text-primary"></i>
+                        </div>
+                        <h4>Testing & Deployment</h4>
+                        <p>We thoroughly test your app on multiple devices and assist with app store submissions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Benefits -->
+    <section class="benefits-section py-5">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-12 text-center" data-aos="fade-up">
+                    <h2 class="section-title">Advantages of React Native Development</h2>
+                    <p class="section-description">
+                        Why choose React Native for your mobile application
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="benefit-card h-100 p-4 bg-white rounded shadow-sm">
+                        <div class="benefit-icon mb-3">
+                            <i class="fas fa-dollar-sign fa-2x text-primary"></i>
+                        </div>
+                        <h4>Cost Efficiency</h4>
+                        <p>Develop for both iOS and Android platforms simultaneously, reducing development time and costs by up to 50%.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="benefit-card h-100 p-4 bg-white rounded shadow-sm">
+                        <div class="benefit-icon mb-3">
+                            <i class="fas fa-desktop fa-2x text-primary"></i>
+                        </div>
+                        <h4>Native Performance</h4>
+                        <p>Achieve near-native performance with direct access to platform-specific APIs and optimized components.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="benefit-card h-100 p-4 bg-white rounded shadow-sm">
+                        <div class="benefit-icon mb-3">
+                            <i class="fas fa-fire fa-2x text-primary"></i>
+                        </div>
+                        <h4>Hot Reloading</h4>
+                        <p>Speed up development with instant feedback through Hot Reloading, allowing you to see changes in real-time.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="benefit-card h-100 p-4 bg-white rounded shadow-sm">
+                        <div class="benefit-icon mb-3">
+                            <i class="fas fa-recycle fa-2x text-primary"></i>
+                        </div>
+                        <h4>Code Reusability</h4>
+                        <p>Reuse up to 90% of code between platforms, making maintenance and updates more efficient.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0" data-aos="fade-up" data-aos-delay="400">
+                    <div class="benefit-card h-100 p-4 bg-white rounded shadow-sm">
+                        <div class="benefit-icon mb-3">
+                            <i class="fas fa-users fa-2x text-primary"></i>
+                        </div>
+                        <h4>Strong Community</h4>
+                        <p>Benefit from a large, active community of developers and a rich ecosystem of libraries and tools.</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="benefit-card h-100 p-4 bg-white rounded shadow-sm">
+                        <div class="benefit-icon mb-3">
+                            <i class="fas fa-rocket fa-2x text-primary"></i>
+                        </div>
+                        <h4>Faster Time-to-Market</h4>
+                        <p>Launch your app faster with streamlined development and efficient deployment processes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA -->
+    <section class="cta-section py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0" data-aos="fade-right">
+                    <h2 class="mb-3">Ready to Build Your React Native App?</h2>
+                    <p class="lead mb-0">
+                        Let's create a robust, cross-platform mobile application that delivers an exceptional user experience.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-lg-end" data-aos="fade-left">
+                    <a href="../../contact.html" class="btn btn-light btn-lg">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-white mb-4">StartupAI</h5>
+                    <p class="text-white-50">
+                        Empowering startups and businesses with cutting-edge technology solutions to achieve digital success.
+                    </p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-white">Web Design</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../../services/web-design/responsive-design.html">Responsive Design</a></li>
+                        <li><a href="../../services/web-design/ui-ux-design.html">UI/UX Design</a></li>
+                        <li><a href="../../services/web-design/e-commerce-design.html">E-commerce Design</a></li>
+                        <li><a href="../../services/web-design/figma-design.html">Figma Design</a></li>
+                        <li><a href="../../services/web-design/xd-design.html">XD Design</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-white">App Development</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../../services/app-development/react-development.html">React Development</a></li>
+                        <li><a href="../../services/app-development/nextjs-development.html">Next.js Development</a></li>
+                        <li><a href="../../services/app-development/wordpress.html">WordPress</a></li>
+                        <li><a href="../../services/app-development/woocommerce.html">WooCommerce</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                    <h5 class="text-white">Mobile & AI</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../../services/mobile-apps/flutter-development.html">Flutter Development</a></li>
+                        <li><a href="../../services/mobile-apps/react-native.html">React Native</a></li>
+                        <li><a href="../../services/mobile-apps/swift-development.html">Swift Development</a></li>
+                        <li><a href="../../services/mobile-apps/kotlin-development.html">Kotlin Development</a></li>
+                        <li><a href="../../services/ai-services/ai-chatbot.html">AI Chatbot</a></li>
+                        <li><a href="../../services/ai-services/machine-learning.html">Machine Learning</a></li>
+                        <li><a href="../../services/ai-services/ai-agent.html">AI Agent</a></li>
+                        <li><a href="../../services/ai-services/voice-agent.html">Voice Agent</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="text-white">Digital Marketing</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../../services/digital-marketing/seo.html">SEO</a></li>
+                        <li><a href="../../services/digital-marketing/content-marketing.html">Content Marketing</a></li>
+                        <li><a href="../../services/digital-marketing/social-media.html">Social Media Marketing</a></li>
+                        <li><a href="../../services/digital-marketing/email-marketing.html">Email Marketing</a></li>
+                    </ul>
+                    <h5 class="text-white mt-4">Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="../../about.html">About Us</a></li>
+                        <li><a href="../../blog/index.html">Blog</a></li>
+                        <li><a href="../../contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="text-white-50 mb-0">&copy; 2023 StartupAI. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <ul class="list-inline mb-0">
+                        <li class="list-inline-item"><a href="../../privacy-policy.html">Privacy Policy</a></li>
+                        <li class="list-inline-item"><a href="../../terms-of-service.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Typed.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Custom JS -->
+    <script src="../../../assets/js/main.js"></script>
+</body>
+</html> 

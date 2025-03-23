@@ -1,0 +1,82 @@
+/* Why Hire Us Section Styles */
+.why-hire-us {
+    position: relative;
+    overflow: hidden;
+}
+
+.why-hire-us .section-title {
+    color: var(--primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.section-divider {
+    width: 80px;
+    height: 3px;
+    background: var(--primary);
+    margin: 0 auto 2rem;
+}
+
+.why-hire-card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.why-hire-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.why-hire-card .card-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(var(--bs-primary-rgb), 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+}
+
+.why-hire-card .card-icon i {
+    font-size: 2rem;
+    color: var(--primary);
+}
+
+.why-hire-card h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--dark);
+}
+
+.why-hire-card p {
+    color: var(--gray);
+    margin-bottom: 0;
+    line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .why-hire-us .section-title {
+        font-size: 2rem;
+    }
+    
+    .why-hire-card {
+        padding: 1.5rem;
+    }
+    
+    .why-hire-card .card-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .why-hire-card .card-icon i {
+        font-size: 1.5rem;
+    }
+} 
