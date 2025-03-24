@@ -2,14 +2,21 @@
 // Define base path to allow direct script access
 define('BASEPATH', true);
 
-require_once '../../../config/database.php';
+require_once '../../../includes/config.php';
 require_once '../../../config/why-hire-us.php';
+// Page specific content
+$pageTitle = "Social Media Marketing Services";
+$pageDescription = "Build your brand presence and engage with customers on social platforms";
+$serviceName = "Social Media Marketing";
+$serviceSlug = "social-media";
+
+
 require_once '../../../assets/templates/why-hire-us-section.php';
 
 // Get Why Hire Us content for social media marketing
 $why_hire_us = getWhyHireUsContent('social-media-marketing');
 
-require_once '../../../components/header.php';
+require_once '../../../includes/header.php';
 ?>
 
     <!-- Page Header -->
@@ -17,7 +24,7 @@ require_once '../../../components/header.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="fw-bold" data-aos="fade-up">Social Media Marketing Services</h1>
+                    <h1 class="display-4"><?php echo $pageTitle; ?></h1>
                     <p class="lead" data-aos="fade-up" data-aos-delay="100">
                         Drive engagement, build brand awareness, and grow your audience with strategic social media management
                     </p>
@@ -31,7 +38,7 @@ require_once '../../../components/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                    <img src="/assets/images/services/social-media-marketing.jpg" alt="Social Media Marketing Services" class="img-fluid rounded shadow">
+                    <img src="../../../assets/images/services/social-media-marketing.jpg" alt="<?php echo $serviceName; ?>" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
                     <h2 class="mb-4">Strategic Social Media Marketing Solutions</h2>
@@ -395,4 +402,4 @@ require_once '../../../components/header.php';
         </div>
     </section>
 
-<?php require_once '../../../components/footer.php'; ?> 
+<?php require_once '../../../includes/footer.php'; ?> 

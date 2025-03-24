@@ -2,14 +2,20 @@
 // Define base path to allow direct script access
 define('BASEPATH', true);
 
-require_once '../../../config/database.php';
+require_once '../../../includes/config.php';
 require_once '../../../config/why-hire-us.php';
 require_once '../../../assets/templates/why-hire-us-section.php';
 
 // Get Why Hire Us content for XD design
 $why_hire_us = getWhyHireUsContent('xd-design');
 
-require_once '../../../components/header.php';
+// Page specific content
+$pageTitle = "Adobe XD Design Services";
+$pageDescription = "Create stunning user interfaces and interactive prototypes with Adobe XD";
+$serviceName = "Adobe XD Design";
+$serviceSlug = "xd-design";
+
+require_once '../../../includes/header.php';
 ?>
 
     <!-- Page Header -->
@@ -17,11 +23,11 @@ require_once '../../../components/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6" data-aos="fade-right">
-                    <h1 class="display-4">Adobe XD Design Services</h1>
-                    <p class="lead">Create stunning user interfaces and interactive prototypes with Adobe XD</p>
+                    <h1 class="display-4"><?php echo $pageTitle; ?></h1>
+                    <p class="lead"><?php echo $pageDescription; ?></p>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
-                    <img src="/assets/images/services/xd-design.svg" alt="Adobe XD Design" class="img-fluid">
+                    <img src="../../../assets/images/services/xd-design.svg" alt="<?php echo $serviceName; ?>" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -33,7 +39,7 @@ require_once '../../../components/header.php';
             <div class="row">
                 <div class="col-lg-8 mb-4" data-aos="fade-up">
                     <h2>Professional Adobe XD Design Solutions</h2>
-                    <p class="lead">We harness Adobe XD's powerful features to create seamless design experiences.</p>
+                    <p class="lead"><?php echo $pageDescription; ?></p>
                     <p>Our Adobe XD design services focus on creating stunning user interfaces and interactive prototypes. We utilize XD's powerful features like repeat grids, auto-animate, and voice prototyping to create engaging and innovative digital experiences.</p>
                 </div>
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
@@ -265,4 +271,4 @@ require_once '../../../components/header.php';
         </div>
     </section>
 
-<?php require_once '../../../components/footer.php'; ?> 
+<?php require_once '../../../includes/footer.php'; ?> 

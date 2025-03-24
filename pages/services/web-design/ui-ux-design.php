@@ -3,7 +3,7 @@
 define('BASEPATH', true);
 
 require_once '../../../includes/config.php';
-require_once '../../../includes/why-hire-us.php';
+require_once '../../../config/why-hire-us.php';
 require_once '../../../includes/header.php';
 require_once '../../../includes/faq-section.php';
 
@@ -23,7 +23,7 @@ $serviceSlug = "ui-ux-design";
                 <p class="lead"><?php echo $pageDescription; ?></p>
             </div>
             <div class="col-lg-6" data-aos="fade-left">
-                <img src="../../../assets/images/services/ui-ux-design.svg" alt="UI/UX Design" class="img-fluid">
+                <img src="../../../assets/images/services/ui-ux-design.svg" alt="<?php echo $serviceName; ?>" class="img-fluid">
             </div>
         </div>
     </div>
@@ -35,7 +35,7 @@ $serviceSlug = "ui-ux-design";
         <div class="row">
             <div class="col-lg-8 mb-4" data-aos="fade-up">
                 <h2>Transform Your Digital Presence</h2>
-                <p class="lead">We create user-centered designs that drive engagement and conversions.</p>
+                <p class="lead"><?php echo $pageDescription; ?></p>
                 <p>Our UI/UX design services focus on creating intuitive, efficient, and enjoyable digital experiences that meet both user needs and business goals. We combine aesthetic appeal with functional design to deliver solutions that work beautifully.</p>
             </div>
             <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">

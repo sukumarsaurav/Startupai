@@ -16,7 +16,7 @@ $serviceName = "Responsive Web Design";
 $serviceSlug = "responsive-design";
 
 // Include the header
-include_once '../../../components/header.php';
+require_once '../../../includes/header.php';
 ?>
 
 <!-- Page Header -->
@@ -28,7 +28,7 @@ include_once '../../../components/header.php';
                 <p class="lead"><?php echo $pageDescription; ?></p>
             </div>
             <div class="col-lg-6" data-aos="fade-left">
-                <img src="../../../assets/images/services/responsive-design.svg" alt="Responsive Web Design" class="img-fluid">
+                <img src="../../../assets/images/services/responsive-design.svg" alt="<?php echo $serviceName; ?>" class="img-fluid">
             </div>
         </div>
     </div>
@@ -40,7 +40,7 @@ include_once '../../../components/header.php';
         <div class="row">
             <div class="col-lg-8 mb-4" data-aos="fade-up">
                 <h2>Responsive Design for the Modern Web</h2>
-                <p class="lead">Websites that adapt seamlessly to all devices and screen sizes.</p>
+                <p class="lead"><?php echo $pageDescription; ?></p>
                 <p>In today's multi-device world, responsive design isn't just a feature—it's essential. Our responsive design services ensure your website provides an optimal viewing and interaction experience across a wide range of devices from desktop computers to smartphones.</p>
             </div>
             <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
@@ -189,5 +189,5 @@ renderFaqSection($serviceSlug, $serviceName);
 
 <?php
 // Include footer
-include_once '../../../components/footer.php';
+require_once '../../../includes/footer.php';
 ?> 

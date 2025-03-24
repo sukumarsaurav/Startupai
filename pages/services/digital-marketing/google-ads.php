@@ -2,14 +2,21 @@
 // Define base path to allow direct script access
 define('BASEPATH', true);
 
-require_once '../../../config/database.php';
+require_once '../../../includes/config.php';
 require_once '../../../config/why-hire-us.php';
+// Page specific content
+$pageTitle = "Google Ads Services";
+$pageDescription = "Drive targeted traffic to your website with strategic Google Ad campaigns";
+$serviceName = "Google Ads";
+$serviceSlug = "google-ads";
+
+
 require_once '../../../assets/templates/why-hire-us-section.php';
 
 // Get Why Hire Us content for Google Ads
 $why_hire_us = getWhyHireUsContent('google-ads');
 
-require_once '../../../components/header.php';
+require_once '../../../includes/header.php';
 ?>
 
     <!-- Page Header -->
@@ -17,11 +24,11 @@ require_once '../../../components/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6" data-aos="fade-right">
-                    <h1 class="display-4">Google Ads Management</h1>
-                    <p class="lead">Drive targeted traffic and maximize ROI with expertly managed PPC campaigns</p>
+                    <h1 class="display-4"><?php echo $pageTitle; ?></h1>
+                    <p class="lead"><?php echo $pageDescription; ?></p>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
-                    <img src="/assets/images/services/google-ads.svg" alt="Google Ads Management" class="img-fluid">
+                    <img src="../../../assets/images/services/google-ads.svg" alt="<?php echo $serviceName; ?>" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -33,7 +40,7 @@ require_once '../../../components/header.php';
             <div class="row">
                 <div class="col-lg-8 mb-4" data-aos="fade-up">
                     <h2>Strategic Google Ads Management</h2>
-                    <p class="lead">We create and manage high-performing Google Ads campaigns that deliver measurable results.</p>
+                    <p class="lead"><?php echo $pageDescription; ?></p>
                     <p>Our Google Ads management services focus on creating targeted campaigns that drive qualified traffic and maximize your return on investment. We combine data-driven strategies, advanced targeting, and continuous optimization to ensure your ads reach the right audience at the right time.</p>
                 </div>
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
@@ -265,4 +272,4 @@ require_once '../../../components/header.php';
         </div>
     </section>
 
-<?php require_once '../../../components/footer.php'; ?> 
+<?php require_once '../../../includes/footer.php'; ?> 

@@ -2,14 +2,21 @@
 // Define base path to allow direct script access
 define('BASEPATH', true);
 
-require_once '../../../config/database.php';
+require_once '../../../includes/config.php';
 require_once '../../../config/why-hire-us.php';
+// Page specific content
+$pageTitle = "Content Marketing Services";
+$pageDescription = "Attract and engage your target audience with valuable content";
+$serviceName = "Content Marketing";
+$serviceSlug = "content-marketing";
+
+
 require_once '../../../assets/templates/why-hire-us-section.php';
 
 // Get Why Hire Us content for content marketing
 $why_hire_us = getWhyHireUsContent('content-marketing');
 
-require_once '../../../components/header.php';
+require_once '../../../includes/header.php';
 ?>
 
 <!-- Page Header -->
@@ -17,7 +24,7 @@ require_once '../../../components/header.php';
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h1 class="fw-bold" data-aos="fade-up">Professional Content Writing Services</h1>
+                <h1 class="display-4"><?php echo $pageTitle; ?></h1>
                 <p class="lead" data-aos="fade-up" data-aos-delay="100">
                     High-quality content writing services that drive traffic, engage readers, and grow your business
                 </p>
@@ -31,7 +38,7 @@ require_once '../../../components/header.php';
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                <img src="/assets/images/services/content-marketing.jpg" alt="Professional Content Writing Services" class="img-fluid rounded shadow">
+                <img src="../../../assets/images/services/content-marketing.jpg" alt="<?php echo $serviceName; ?>" class="img-fluid rounded shadow">
             </div>
             <div class="col-lg-6" data-aos="fade-left">
                 <h2 class="mb-4">Affordable Content Writing Solutions for Your Business</h2>
@@ -377,4 +384,4 @@ require_once '../../../components/header.php';
     </div>
 </section>
 
-<?php require_once '../../../components/footer.php'; ?> 
+<?php require_once '../../../includes/footer.php'; ?> 

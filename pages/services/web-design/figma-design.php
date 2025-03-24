@@ -3,13 +3,14 @@
 define('BASEPATH', true);
 
 require_once '../../../includes/config.php';
-require_once '../../../includes/why-hire-us.php';
+require_once '../../../config/why-hire-us.php';
 require_once '../../../includes/header.php';
 
 // Page specific content
 $pageTitle = "Figma Design Services";
 $pageDescription = "Create scalable and collaborative design systems with Figma";
 $serviceName = "Figma Design";
+$serviceSlug = "figma-design";
 ?>
 
 <!-- Page Header -->
@@ -21,7 +22,7 @@ $serviceName = "Figma Design";
                 <p class="lead"><?php echo $pageDescription; ?></p>
             </div>
             <div class="col-lg-6" data-aos="fade-left">
-                <img src="../../../assets/images/services/figma-design.svg" alt="Figma Design" class="img-fluid">
+                <img src="../../../assets/images/services/figma-design.svg" alt="<?php echo $serviceName; ?>" class="img-fluid">
             </div>
         </div>
     </div>
@@ -33,7 +34,7 @@ $serviceName = "Figma Design";
         <div class="row">
             <div class="col-lg-8 mb-4" data-aos="fade-up">
                 <h2>Modern Design Solutions with Figma</h2>
-                <p class="lead">We leverage Figma's powerful features to create collaborative and scalable design systems.</p>
+                <p class="lead"><?php echo $pageDescription; ?></p>
                 <p>Our Figma design services focus on creating modern, efficient, and collaborative design workflows. We utilize Figma's real-time collaboration features, auto-layout capabilities, and component systems to deliver consistent and scalable designs.</p>
             </div>
             <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">

@@ -2,14 +2,21 @@
 // Define base path to allow direct script access
 define('BASEPATH', true);
 
-require_once '../../../config/database.php';
+require_once '../../../includes/config.php';
 require_once '../../../config/why-hire-us.php';
+
+// Page specific content
+$pageTitle = "Email Marketing Services";
+$pageDescription = "Connect directly with your audience through personalized email campaigns";
+$serviceName = "Email Marketing";
+$serviceSlug = "email-marketing";
+
 require_once '../../../assets/templates/why-hire-us-section.php';
 
 // Get Why Hire Us content for email marketing
 $why_hire_us = getWhyHireUsContent('email-marketing');
 
-require_once '../../../components/header.php';
+require_once '../../../includes/header.php';
 ?>
 
     <!-- Page Header -->
@@ -17,11 +24,11 @@ require_once '../../../components/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6" data-aos="fade-right">
-                    <h1 class="display-4">Email Marketing Services</h1>
-                    <p class="lead">Affordable email marketing solutions designed for small businesses to create effective email campaigns that drive results</p>
+                    <h1 class="display-4"><?php echo $pageTitle; ?></h1>
+                    <p class="lead"><?php echo $pageDescription; ?></p>
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
-                    <img src="/assets/images/services/email-marketing.svg" alt="Email Marketing Services" class="img-fluid">
+                    <img src="../../../assets/images/services/email-marketing.svg" alt="<?php echo $serviceName; ?>" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -33,7 +40,7 @@ require_once '../../../components/header.php';
             <div class="row">
                 <div class="col-lg-8 mb-4" data-aos="fade-up">
                     <h2>Email Marketing Solutions for Small Businesses</h2>
-                    <p class="lead">We help businesses create and execute effective email marketing campaigns that engage subscribers and drive growth.</p>
+                    <p class="lead"><?php echo $pageDescription; ?></p>
                     <p>Our affordable email marketing services combine proven strategies with beginner-friendly tools to deliver personalized campaigns that resonate with your audience. From list building and segmentation to automation and analytics, we provide comprehensive email marketing solutions tailored to small business needs.</p>
                 </div>
                 <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="100">
@@ -145,4 +152,4 @@ require_once '../../../components/header.php';
         </div>
     </section>
 
-<?php require_once '../../../components/footer.php'; ?> 
+<?php require_once '../../../includes/footer.php'; ?> 

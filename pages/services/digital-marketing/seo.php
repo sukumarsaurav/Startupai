@@ -2,14 +2,21 @@
 // Define base path to allow direct script access
 define('BASEPATH', true);
 
-require_once '../../../config/database.php';
+require_once '../../../includes/config.php';
 require_once '../../../config/why-hire-us.php';
+// Page specific content
+$pageTitle = "SEO Services";
+$pageDescription = "Improve your website visibility and ranking in search engines";
+$serviceName = "SEO";
+$serviceSlug = "seo";
+
+
 require_once '../../../assets/templates/why-hire-us-section.php';
 
 // Get Why Hire Us content for SEO
 $why_hire_us = getWhyHireUsContent('seo');
 
-require_once '../../../components/header.php';
+require_once '../../../includes/header.php';
 ?>
 
     <!-- Page Header -->
@@ -17,7 +24,7 @@ require_once '../../../components/header.php';
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h1 class="fw-bold" data-aos="fade-up">Search Engine Optimization</h1>
+                    <h1 class="display-4"><?php echo $pageTitle; ?></h1>
                     <p class="lead" data-aos="fade-up" data-aos-delay="100">
                         Increase your online visibility and drive quality traffic to your website
                     </p>
@@ -31,7 +38,7 @@ require_once '../../../components/header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
-                    <img src="/assets/images/services/seo.jpg" alt="SEO Services" class="img-fluid rounded shadow">
+                    <img src="../../../assets/images/services/seo.jpg" alt="<?php echo $serviceName; ?>" class="img-fluid rounded shadow">
                 </div>
                 <div class="col-lg-6" data-aos="fade-left">
                     <h2 class="mb-4">Comprehensive SEO Solutions</h2>
@@ -381,4 +388,4 @@ require_once '../../../components/header.php';
         </div>
     </section>
 
-<?php require_once '../../../components/footer.php'; ?> 
+<?php require_once '../../../includes/footer.php'; ?> 
