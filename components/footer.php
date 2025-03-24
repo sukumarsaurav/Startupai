@@ -14,54 +14,70 @@
                         <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <h5 class="text-white">Web Design</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/pages/services/web-design/ecommerce-design.php">Ecommerce Website Design</a></li>
-                        <li><a href="/pages/services/web-design/portfolio-design.php">Portfolio Website Design</a></li>
-                        <li><a href="/pages/services/web-design/web-app-design.php">Web App Design</a></li>
-                        <li><a href="/pages/services/web-design/membership-design.php">Membership Website Design</a></li>
+                        <li><a href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Wireframing-&-Prototyping.php">Wireframing & Prototyping</a></li>
+                        <li><a href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Interface-(UI)-Design.php">UI Design</a></li>
+                        <li><a href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Experience-(UX)-Optimization.php">UX Optimization</a></li>
+                        <li><a href="/pages/services/web-design/Website-Redesign-&-Revamp/Mobile-First-Design.php">Mobile-First Design</a></li>
+                        <li><a href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Cross-Browser-Compatibility.php">Cross-Browser Compatibility</a></li>
+                        <li><a href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Adaptive-Web-Design.php">Adaptive Web Design</a></li>
+                        <li><a href="/pages/services/web-design/CMS-Based-Website-Development/WordPress-Website-Design.php">WordPress Design</a></li>
+                        <li><a href="/pages/services/web-design/E-commerce-Website-Design/Shopify-Development.php">Shopify Development</a></li>
+                        <li><a href="/pages/services/web-design/Custom-Website-Design/Business-Websites.php">Business Websites</a></li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
+                <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
                     <h5 class="text-white">App Development</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/pages/services/app-development/react-development.php">React Development</a></li>
-                        <li><a href="/pages/services/app-development/nextjs-development.php">Next.js Development</a></li>
-                        <li><a href="/pages/services/app-development/react-native.php">React Native</a></li>
-                        <li><a href="/pages/services/app-development/flutter-development.php">Flutter Development</a></li>
-                        <li><a href="/pages/services/app-development/kotlin-development.php">Android Development (Kotlin)</a></li>
-                        <li><a href="/pages/services/app-development/swift-development.php">iOS Development (Swift)</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                    <h5 class="text-white">AI Services</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI Chatbots & Virtual Assistants</a></li>
-                        <li><a href="/pages/services/ai-services/business-automation.php">Business Automation</a></li>
-                        <li><a href="/pages/services/ai-services/natural-language-processing.php">NLP</a></li>
-                        <li><a href="/pages/services/ai-services/machine-learning-solutions.php">ML Solutions</a></li>
-                        <li><a href="/pages/services/ai-services/model-training.php">AI Model Training</a></li>
-                        <li><a href="/pages/services/ai-services/computer-vision.php">Computer Vision</a></li>
-                        <li><a href="/pages/services/ai-services/voice-speech.php">Voice & Speech AI</a></li>
-                        <li><a href="/pages/services/ai-services/ai-digital-marketing.php">AI in Marketing</a></li>
-                        <li><a href="/pages/services/ai-services/industry-applications.php">Industry Applications</a></li>
+                        <li><a href="/pages/services/app-development/web-application-devlopment/custom-web-apps.php">Custom Web Applications</a></li>
+                        <li><a href="/pages/services/app-development/web-application-devlopment/API-Development-&-Integration.php">API Development</a></li>
+                        <li><a href="/pages/services/app-development/web-application-devlopment/Progressive-Web-Apps.php">Progressive Web Apps</a></li>
+                        <li><a href="/pages/services/app-development/web-application-devlopment/SaaS-Development.php">SaaS Development</a></li>
+                        <li><a href="/pages/services/app-development/Backend-&-Database/Database-Design-&-Management.php">Database Design</a></li>
+                        <li><a href="/pages/services/app-development/Backend-&-Database/DevOps-&-CI-CD.php">DevOps & CI/CD</a></li>
+                        <li><a href="/pages/services/app-development/Custom-Software-Solutions/AI-Powered-Applications.php">AI-Powered Applications</a></li>
+                        <li><a href="/pages/services/app-development/Custom-Software-Solutions/CRM-&-ERP-Solutions.php">CRM & ERP Solutions</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-white">Digital Marketing</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="/pages/services/digital-marketing/seo.php">SEO</a></li>
-                        <li><a href="/pages/services/digital-marketing/content-marketing.php">Content Marketing</a></li>
-                        <li><a href="/pages/services/digital-marketing/social-media.php">Social Media Marketing</a></li>
-                        <li><a href="/pages/services/digital-marketing/email-marketing.php">Email Marketing</a></li>
-                    </ul>
-                    <h5 class="text-white mt-4">Company</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="/pages/about.php">About Us</a></li>
-                        <li><a href="/pages/blog.php">Blog</a></li>
-                        <li><a href="/pages/contact.php">Contact Us</a></li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-12 mb-4">
+                            <h5 class="text-white">AI Services</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI Chatbots & Assistants</a></li>
+                                <li><a href="/pages/services/ai-services/business-automation.php">Business Automation</a></li>
+                                <li><a href="/pages/services/ai-services/natural-language-processing.php">NLP Solutions</a></li>
+                                <li><a href="/pages/services/ai-services/machine-learning-solutions.php">Machine Learning</a></li>
+                                <li><a href="/pages/services/ai-services/computer-vision.php">Computer Vision</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-12">
+                            <h5 class="text-white">Digital Marketing</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="/pages/services/digital-marketing/seo.php">SEO Services</a></li>
+                                <li><a href="/pages/services/digital-marketing/content-marketing.php">Content Marketing</a></li>
+                                <li><a href="/pages/services/digital-marketing/social-media.php">Social Media Marketing</a></li>
+                                <li><a href="/pages/services/digital-marketing/email-marketing.php">Email Marketing</a></li>
+                                <li><a href="/pages/services/digital-marketing/google-ads.php">Google Ads</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-12">
+                    <h5 class="text-white text-center mb-3">Industry-Specific Solutions</h5>
+                    <div class="industry-links text-center">
+                        <a href="/pages/services/web-design/Industry-Specific-Website-Design/Healthcare-Websites.php" class="btn btn-outline-light btn-sm m-1">Healthcare</a>
+                        <a href="/pages/services/web-design/Industry-Specific-Website-Design/Real-Estate-Websites.php" class="btn btn-outline-light btn-sm m-1">Real Estate</a>
+                        <a href="/pages/services/web-design/Industry-Specific-Website-Design/Finance-Websites.php" class="btn btn-outline-light btn-sm m-1">Finance</a>
+                        <a href="/pages/services/web-design/Industry-Specific-Website-Design/Education-Websites.php" class="btn btn-outline-light btn-sm m-1">Education</a>
+                        <a href="/pages/services/web-design/Industry-Specific-Website-Design/Hospitality-Websites.php" class="btn btn-outline-light btn-sm m-1">Hospitality</a>
+                        <a href="/pages/services/web-design/Industry-Specific-Website-Design/Legal-Websites.php" class="btn btn-outline-light btn-sm m-1">Legal</a>
+                        <a href="/pages/services/ai-services/industry-applications.php#ecommerce" class="btn btn-outline-light btn-sm m-1">E-commerce</a>
+                    </div>
                 </div>
             </div>
             <hr class="my-4">
@@ -73,6 +89,9 @@
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item"><a href="/pages/privacy-policy.php">Privacy Policy</a></li>
                         <li class="list-inline-item"><a href="/pages/terms-of-service.php">Terms of Service</a></li>
+                        <li class="list-inline-item"><a href="/pages/about.php">About Us</a></li>
+                        <li class="list-inline-item"><a href="/pages/blog.php">Blog</a></li>
+                        <li class="list-inline-item"><a href="/pages/contact.php">Contact</a></li>
                     </ul>
                 </div>
             </div>

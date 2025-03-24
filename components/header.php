@@ -47,22 +47,63 @@ $seo_data = get_seo_data($category, $service);
         <div class="drawer-body">
             <nav class="drawer-nav">
                 <a href="/index.php" class="drawer-item active">Home</a>
+                
+                <!-- Web Design -->
                 <a href="#" class="drawer-item dropdown-toggle">Web Design</a>
                 <div class="drawer-submenu">
-                    <a href="/pages/services/web-design/ecommerce-design.php">Ecommerce Website Design</a>
-                    <a href="/pages/services/web-design/portfolio-design.php">Portfolio Website Design</a>
-                    <a href="/pages/services/web-design/web-app-design.php">Web App Design</a>
-                    <a href="/pages/services/web-design/membership-design.php">Membership Website Design</a>
+                    <a href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Wireframing-&-Prototyping.php">Wireframing & Prototyping</a>
+                    <a href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Interface-(UI)-Design.php">User Interface (UI) Design</a>
+                    <a href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Experience-(UX)-Optimization.php">User Experience (UX) Optimization</a>
+                    <a href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Accessibility-&-Usability-Testing.php">Accessibility & Usability Testing</a>
+                    
+                    <a href="/pages/services/web-design/Website-Redesign-&-Revamp/Mobile-First-Design.php">Mobile-First Design</a>
+                    <a href="/pages/services/web-design/Website-Redesign-&-Revamp/Speed-&-Performance-Optimization.php">Speed & Performance Optimization</a>
+                    <a href="/pages/services/web-design/Website-Redesign-&-Revamp/Modernizing-Old-Websites.php">Modernizing Old Websites</a>
+                    
+                    <a href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Mobile-UI-UX-Optimization.php">Mobile UI/UX Optimization</a>
+                    <a href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Cross-Browser-Compatibility.php">Cross-Browser Compatibility</a>
+                    <a href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Adaptive-Web-Design.php">Adaptive Web Design</a>
+                    
+                    <a href="/pages/services/web-design/CMS-Based-Website-Development/WordPress-Website-Design.php">WordPress Website Design</a>
+                    <a href="/pages/services/web-design/CMS-Based-Website-Development/Webflow-Development.php">Webflow Development</a>
+                    <a href="/pages/services/web-design/CMS-Based-Website-Development/Custom-CMS-Solutions.php">Custom CMS Solutions</a>
+                    
+                    <a href="/pages/services/web-design/Industry-Specific-Website-Design/Healthcare-Websites.php">Healthcare Websites</a>
+                    <a href="/pages/services/web-design/Industry-Specific-Website-Design/Real-Estate-Websites.php">Real Estate Websites</a>
+                    <a href="/pages/services/web-design/Industry-Specific-Website-Design/Finance-Websites.php">Finance Websites</a>
+                    <a href="/pages/services/web-design/Industry-Specific-Website-Design/Education-Websites.php">Education Websites</a>
+                    <a href="/pages/services/web-design/Industry-Specific-Website-Design/Hospitality-Websites.php">Hospitality Websites</a>
+                    <a href="/pages/services/web-design/Industry-Specific-Website-Design/Legal-Websites.php">Legal Websites</a>
+                    
+                    <a href="/pages/services/web-design/E-commerce-Website-Design/Shopify-Development.php">Shopify Development</a>
+                    <a href="/pages/services/web-design/E-commerce-Website-Design/WooCommerce-Development.php">WooCommerce Development</a>
+                    <a href="/pages/services/web-design/E-commerce-Website-Design/Custom-E-commerce-Solutions.php">Custom E-commerce Solutions</a>
+                    
+                    <a href="/pages/services/web-design/Custom-Website-Design/Business-Websites.php">Business Websites</a>
+                    <a href="/pages/services/web-design/Custom-Website-Design/Portfolio-Websites.php">Portfolio Websites</a>
+                    <a href="/pages/services/web-design/Custom-Website-Design/Personal-Blogs.php">Personal Blogs</a>
+                    <a href="/pages/services/web-design/Custom-Website-Design/Landing-Pages.php">Landing Pages</a>
                 </div>
+                
+                <!-- App Development -->
                 <a href="#" class="drawer-item dropdown-toggle">App Development</a>
                 <div class="drawer-submenu">
-                    <a href="/pages/services/app-development/react-development.php">React Development</a>
-                    <a href="/pages/services/app-development/nextjs-development.php">Next.js Development</a>
-                    <a href="/pages/services/app-development/react-native.php">React Native</a>
-                    <a href="/pages/services/app-development/flutter-development.php">Flutter Development</a>
-                    <a href="/pages/services/app-development/kotlin-development.php">Android Development (Kotlin)</a>
-                    <a href="/pages/services/app-development/swift-development.php">iOS Development (Swift)</a>
+                    <a href="/pages/services/app-development/web-application-devlopment/custom-web-apps.php">Custom Web Apps</a>
+                    <a href="/pages/services/app-development/web-application-devlopment/API-Development-&-Integration.php">API Development & Integration</a>
+                    <a href="/pages/services/app-development/web-application-devlopment/Progressive-Web-Apps.php">Progressive Web Apps</a>
+                    <a href="/pages/services/app-development/web-application-devlopment/E-commerce-Solutions.php">E-commerce Solutions</a>
+                    <a href="/pages/services/app-development/web-application-devlopment/SaaS-Development.php">SaaS Development</a>
+                    
+                    <a href="/pages/services/app-development/Backend-&-Database/Database-Design-&-Management.php">Database Design & Management</a>
+                    <a href="/pages/services/app-development/Backend-&-Database/DevOps-&-CI-CD.php">DevOps & CI/CD</a>
+                    <a href="/pages/services/app-development/Backend-&-Database/Serverless-Architecture.php">Serverless Architecture</a>
+                    
+                    <a href="/pages/services/app-development/Custom-Software-Solutions/AI-Powered-Applications.php">AI-Powered Applications</a>
+                    <a href="/pages/services/app-development/Custom-Software-Solutions/CRM-&-ERP-Solutions.php">CRM & ERP Solutions</a>
+                    <a href="/pages/services/app-development/Custom-Software-Solutions/IoT-&-Embedded-Systems.php">IoT & Embedded Systems</a>
                 </div>
+                
+                <!-- AI Services -->
                 <a href="#" class="drawer-item dropdown-toggle">AI Services</a>
                 <div class="drawer-submenu">
                     <a href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI-Powered Chatbots & Virtual Assistants</a>
@@ -75,6 +116,8 @@ $seo_data = get_seo_data($category, $service);
                     <a href="/pages/services/ai-services/ai-digital-marketing.php">AI in Digital Marketing</a>
                     <a href="/pages/services/ai-services/industry-applications.php">AI for Industry-Specific Applications</a>
                 </div>
+                
+                <!-- Digital Marketing -->
                 <a href="#" class="drawer-item dropdown-toggle">Digital Marketing</a>
                 <div class="drawer-submenu">
                     <a href="/pages/services/digital-marketing/seo.php">SEO</a>
@@ -83,6 +126,7 @@ $seo_data = get_seo_data($category, $service);
                     <a href="/pages/services/digital-marketing/email-marketing.php">Email Marketing</a>
                     <a href="/pages/services/digital-marketing/google-ads.php">Google Ads</a>
                 </div>
+                
                 <a href="/pages/about.php" class="drawer-item">About Us</a>
                 <a href="/pages/blog.php" class="drawer-item">Blog</a>
                 <a href="/pages/contact.php" class="drawer-item">Contact</a>
@@ -91,8 +135,7 @@ $seo_data = get_seo_data($category, $service);
     </div>
 
     <!-- Navigation -->
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
             <button class="navbar-toggler border-0" type="button" id="drawerToggle">
                 <i class="fas fa-bars"></i>
@@ -101,28 +144,109 @@ $seo_data = get_seo_data($category, $service);
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link active" href="/index.php">Home</a></li>
+                    
+                    <!-- Web Design Dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/pages/services.php" role="button" data-bs-toggle="dropdown">Web Design</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/pages/services/web-design/ecommerce-design.php">Ecommerce Website Design</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/web-design/portfolio-design.php">Portfolio Website Design</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/web-design/web-app-design.php">Web App Design</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/web-design/membership-design.php">Membership Website Design</a></li>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Web Design</a>
+                        <ul class="dropdown-menu mega-menu">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <li>
+                                        <h6 class="dropdown-header">UI/UX Design & Prototyping</h6>
+                                        <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Wireframing-&-Prototyping.php">Wireframing & Prototyping</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Interface-(UI)-Design.php">UI Design</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Experience-(UX)-Optimization.php">UX Optimization</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Accessibility-&-Usability-Testing.php">Accessibility Testing</a>
+                                    </li>
+                                    <li>
+                                        <h6 class="dropdown-header">Website Redesign & Revamp</h6>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Mobile-First-Design.php">Mobile-First Design</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Speed-&-Performance-Optimization.php">Speed Optimization</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Modernizing-Old-Websites.php">Modernizing Old Websites</a>
+                                    </li>
+                                </div>
+                                <div class="col-md-3">
+                                    <li>
+                                        <h6 class="dropdown-header">Responsive Design</h6>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Mobile-UI-UX-Optimization.php">Mobile UI/UX Optimization</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Cross-Browser-Compatibility.php">Cross-Browser Compatibility</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Adaptive-Web-Design.php">Adaptive Web Design</a>
+                                    </li>
+                                    <li>
+                                        <h6 class="dropdown-header">CMS Development</h6>
+                                        <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/WordPress-Website-Design.php">WordPress Design</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/Webflow-Development.php">Webflow Development</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/Custom-CMS-Solutions.php">Custom CMS Solutions</a>
+                                    </li>
+                                </div>
+                                <div class="col-md-3">
+                                    <li>
+                                        <h6 class="dropdown-header">Industry-Specific Design</h6>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Healthcare-Websites.php">Healthcare</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Real-Estate-Websites.php">Real Estate</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Finance-Websites.php">Finance</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Education-Websites.php">Education</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Hospitality-Websites.php">Hospitality</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Legal-Websites.php">Legal</a>
+                                    </li>
+                                </div>
+                                <div class="col-md-3">
+                                    <li>
+                                        <h6 class="dropdown-header">E-commerce Design</h6>
+                                        <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/Shopify-Development.php">Shopify Development</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/WooCommerce-Development.php">WooCommerce Development</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/Custom-E-commerce-Solutions.php">Custom E-commerce</a>
+                                    </li>
+                                    <li>
+                                        <h6 class="dropdown-header">Custom Web Design</h6>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Business-Websites.php">Business Websites</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Portfolio-Websites.php">Portfolio Websites</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Personal-Blogs.php">Personal Blogs</a>
+                                        <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Landing-Pages.php">Landing Pages</a>
+                                    </li>
+                                </div>
+                            </div>
                         </ul>
                     </li>
+                    
+                    <!-- App Development Dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/pages/services.php" role="button" data-bs-toggle="dropdown">App Development</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/pages/services/app-development/react-development.php">React Development</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/app-development/nextjs-development.php">Next.js Development</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/app-development/react-native.php">React Native</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/app-development/flutter-development.php">Flutter Development</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/app-development/kotlin-development.php">Android Development (Kotlin)</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/app-development/swift-development.php">iOS Development (Swift)</a></li>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">App Development</a>
+                        <ul class="dropdown-menu mega-menu">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <li>
+                                        <h6 class="dropdown-header">Web Application Development</h6>
+                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/custom-web-apps.php">Custom Web Applications</a>
+                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/API-Development-&-Integration.php">API Development & Integration</a>
+                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/Progressive-Web-Apps.php">Progressive Web Apps</a>
+                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/E-commerce-Solutions.php">E-commerce Solutions</a>
+                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/SaaS-Development.php">SaaS Development</a>
+                                    </li>
+                                </div>
+                                <div class="col-md-4">
+                                    <li>
+                                        <h6 class="dropdown-header">Backend & Database</h6>
+                                        <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/Database-Design-&-Management.php">Database Design & Management</a>
+                                        <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/DevOps-&-CI-CD.php">DevOps & CI/CD</a>
+                                        <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/Serverless-Architecture.php">Serverless Architecture</a>
+                                    </li>
+                                </div>
+                                <div class="col-md-4">
+                                    <li>
+                                        <h6 class="dropdown-header">Custom Software Solutions</h6>
+                                        <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/AI-Powered-Applications.php">AI-Powered Applications</a>
+                                        <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/CRM-&-ERP-Solutions.php">CRM & ERP Solutions</a>
+                                        <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/IoT-&-Embedded-Systems.php">IoT & Embedded Systems</a>
+                                    </li>
+                                </div>
+                            </div>
                         </ul>
                     </li>
+                    
+                    <!-- AI Services Dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/pages/services.php" role="button" data-bs-toggle="dropdown">AI Services</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">AI Services</a>
                         <ul class="dropdown-menu mega-menu">
                             <div class="row">
                                 <div class="col-md-4">
@@ -187,8 +311,10 @@ $seo_data = get_seo_data($category, $service);
                             </div>
                         </ul>
                     </li>
+                    
+                    <!-- Digital Marketing Dropdown -->
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="/pages/services.php" role="button" data-bs-toggle="dropdown">Digital Marketing</a>
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Digital Marketing</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="/pages/services/digital-marketing/seo.php">SEO Services</a></li>
                             <li><a class="dropdown-item" href="/pages/services/digital-marketing/social-media.php">Social Media Marketing</a></li>
@@ -197,6 +323,7 @@ $seo_data = get_seo_data($category, $service);
                             <li><a class="dropdown-item" href="/pages/services/digital-marketing/google-ads.php">Google Ads</a></li>
                         </ul>
                     </li>
+                    
                     <li class="nav-item"><a class="nav-link" href="/pages/about.php">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="/pages/contact.php">Contact</a></li>
                     <li class="nav-item"><a class="btn btn-primary ms-2" href="/pages/contact.php#quote">Get Quote</a></li>
