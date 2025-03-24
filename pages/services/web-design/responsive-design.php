@@ -1,14 +1,22 @@
 <?php
+// Define base path to allow direct script access
+define('BASEPATH', true);
+
 require_once '../../../includes/config.php';
-require_once '../../../includes/why-hire-us.php';
-require_once '../../../includes/header.php';
-require_once '../../../includes/faq-section.php';
+require_once '../../../config/why-hire-us.php';
+require_once '../../../assets/templates/why-hire-us-section.php';
+
+// Get Why Hire Us content for responsive design
+$why_hire_us = getWhyHireUsContent('responsive-design');
 
 // Page specific content
 $pageTitle = "Responsive Web Design Services";
 $pageDescription = "Create websites that look and function beautifully on any device";
 $serviceName = "Responsive Web Design";
 $serviceSlug = "responsive-design";
+
+// Include the header
+include_once '../../../components/header.php';
 ?>
 
 <!-- Page Header -->
@@ -54,12 +62,31 @@ $serviceSlug = "responsive-design";
 <!-- Why Hire Us Section -->
 <?php
 $reasons = [
-    "Mobile-First Expertise" => "We design for mobile devices first, then progressively enhance for larger screens—ensuring a solid foundation.",
-    "Performance Optimization" => "Our responsive designs are optimized for speed, with carefully crafted code and optimized assets.",
-    "Flexible Solutions" => "We create adaptive designs that work seamlessly across thousands of different screen sizes and devices.",
-    "Future-Proof Development" => "Our approach ensures your site remains functional and beautiful as new devices enter the market."
+    [
+        'icon' => 'fas fa-mobile-alt',
+        'title' => 'Mobile-First Expertise',
+        'description' => 'We design for mobile devices first, then progressively enhance for larger screens—ensuring a solid foundation.',
+        'delay' => 100
+    ],
+    [
+        'icon' => 'fas fa-tachometer-alt',
+        'title' => 'Performance Optimization',
+        'description' => 'Our responsive designs are optimized for speed, with carefully crafted code and optimized assets.',
+        'delay' => 200
+    ],
+    [
+        'icon' => 'fas fa-expand-arrows-alt',
+        'title' => 'Flexible Solutions',
+        'description' => 'We create adaptive designs that work seamlessly across thousands of different screen sizes and devices.',
+        'delay' => 300
+    ],
+    [
+        'icon' => 'fas fa-shield-alt',
+        'title' => 'Future-Proof Development',
+        'description' => 'Our approach ensures your site remains functional and beautiful as new devices enter the market.',
+        'delay' => 400
+    ]
 ];
-
 renderWhyHireUs($serviceName, $reasons);
 ?>
 
@@ -138,8 +165,12 @@ renderWhyHireUs($serviceName, $reasons);
     </div>
 </section>
 
-<!-- FAQ Section - Now using dynamic data -->
-<?php renderFaqSection($serviceSlug, $serviceName); ?>
+<!-- FAQ Section -->
+<?php 
+// Include FAQ section
+include_once '../../../includes/faq-section.php';
+renderFaqSection($serviceSlug, $serviceName); 
+?>
 
 <!-- CTA Section -->
 <section class="py-5 bg-primary text-white">
@@ -157,5 +188,6 @@ renderWhyHireUs($serviceName, $reasons);
 </section>
 
 <?php
-require_once '../../../includes/footer.php';
+// Include footer
+include_once '../../../components/footer.php';
 ?> 

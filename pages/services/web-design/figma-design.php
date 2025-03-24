@@ -1,4 +1,7 @@
 <?php
+// Define base path to allow direct script access
+define('BASEPATH', true);
+
 require_once '../../../includes/config.php';
 require_once '../../../includes/why-hire-us.php';
 require_once '../../../includes/header.php';
