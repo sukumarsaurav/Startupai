@@ -14,25 +14,25 @@ $seo_config = [
             'title' => 'Web Design Services | Custom Website Development | StartupAI',
             'description' => 'Professional web design and development services that deliver beautiful, functional websites optimized for performance and conversions.',
             'keywords' => 'web design, website development, custom websites, responsive design, web development services',
-            'ui_ux_design' => [
-                'title' => 'UI/UX Design Services | Professional User Experience Design | StartupAI',
-                'description' => 'Professional UI/UX design services to create intuitive and engaging user experiences. Transform your digital presence with our expert design solutions.',
-                'keywords' => 'UI/UX design, user experience, interface design, UX services'
+            'ecommerce_design' => [
+                'title' => 'Ecommerce Website Design Services | Online Store Development | StartupAI',
+                'description' => 'Professional ecommerce website design services to create stunning online stores that convert visitors into customers and grow your business.',
+                'keywords' => 'ecommerce website design, online store development, ecommerce solutions, shopping cart design'
             ],
-            'responsive_design' => [
-                'title' => 'Responsive Web Design Services | Mobile-Friendly Websites | StartupAI',
-                'description' => 'Professional responsive web design services that ensure your website performs perfectly on all devices and screen sizes.',
-                'keywords' => 'responsive web design, mobile-friendly websites, adaptive design, cross-device compatibility'
+            'portfolio_design' => [
+                'title' => 'Portfolio Website Design Services | Creative Showcases | StartupAI',
+                'description' => 'Professional portfolio website design services that showcase your work beautifully and help you attract ideal clients.',
+                'keywords' => 'portfolio website design, creative showcase, artist portfolio, designer website'
             ],
-            'figma_design' => [
-                'title' => 'Figma Design Services | Professional Design Systems | StartupAI',
-                'description' => 'Professional Figma design services to create modern and scalable design systems. Expert Figma designers for your digital products.',
-                'keywords' => 'Figma design, design systems, UI design, collaborative design'
+            'web_app_design' => [
+                'title' => 'Web Application Design Services | Custom Web App Development | StartupAI',
+                'description' => 'Professional web application design and development services to create powerful, user-friendly solutions for your business needs.',
+                'keywords' => 'web application design, custom web app, web-based software, web application development'
             ],
-            'xd_design' => [
-                'title' => 'Adobe XD Design Services | UI/UX Prototyping | StartupAI',
-                'description' => 'Expert Adobe XD design services for creating stunning UI/UX prototypes and design systems for your digital products.',
-                'keywords' => 'Adobe XD, XD design, prototyping, UI design, UX mockups'
+            'membership_design' => [
+                'title' => 'Membership Website Design Services | Community Platforms | StartupAI',
+                'description' => 'Build a thriving online community with our custom membership website design services. Create subscription sites that generate recurring revenue.',
+                'keywords' => 'membership website design, subscription site, member portal, recurring revenue website'
             ],
             'wordpress' => [
                 'title' => 'WordPress Development Services | Custom WordPress Websites | StartupAI',

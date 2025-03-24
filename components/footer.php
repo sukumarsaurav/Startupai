@@ -17,12 +17,10 @@
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
                     <h5 class="text-white">Web Design</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/pages/services/web-design/responsive-design.php">Responsive Design</a></li>
-                        <li><a href="/pages/services/web-design/ui-ux-design.php">UI/UX Design</a></li>
-                        <li><a href="/pages/services/web-design/e-commerce-design.php">E-commerce Design</a></li>
-                        <li><a href="/pages/services/web-design/figma-design.php">Figma Design</a></li>
-                        <li><a href="/pages/services/web-design/wordpress.php">WordPress</a></li>
-                        <li><a href="/pages/services/web-design/woocommerce.php">WooCommerce</a></li>
+                        <li><a href="/pages/services/web-design/ecommerce-design.php">Ecommerce Website Design</a></li>
+                        <li><a href="/pages/services/web-design/portfolio-design.php">Portfolio Website Design</a></li>
+                        <li><a href="/pages/services/web-design/web-app-design.php">Web App Design</a></li>
+                        <li><a href="/pages/services/web-design/membership-design.php">Membership Website Design</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">

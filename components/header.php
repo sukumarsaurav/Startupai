@@ -49,12 +49,10 @@ $seo_data = get_seo_data($category, $service);
                 <a href="/index.php" class="drawer-item active">Home</a>
                 <a href="#" class="drawer-item dropdown-toggle">Web Design</a>
                 <div class="drawer-submenu">
-                    <a href="/pages/services/web-design/responsive-design.php">Responsive Web Design</a>
-                    <a href="/pages/services/web-design/ui-ux-design.php">UI/UX Design</a>
-                    <a href="/pages/services/web-design/e-commerce-design.php">Ecommerce Design</a>
-                    <a href="/pages/services/web-design/figma-design.php">Figma Design</a>
-                    <a href="/pages/services/web-design/wordpress.php">WordPress</a>
-                    <a href="/pages/services/web-design/woocommerce.php">WooCommerce</a>
+                    <a href="/pages/services/web-design/ecommerce-design.php">Ecommerce Website Design</a>
+                    <a href="/pages/services/web-design/portfolio-design.php">Portfolio Website Design</a>
+                    <a href="/pages/services/web-design/web-app-design.php">Web App Design</a>
+                    <a href="/pages/services/web-design/membership-design.php">Membership Website Design</a>
                 </div>
                 <a href="#" class="drawer-item dropdown-toggle">App Development</a>
                 <div class="drawer-submenu">
@@ -101,12 +99,10 @@ $seo_data = get_seo_data($category, $service);
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="/pages/services.php" role="button" data-bs-toggle="dropdown">Web Design</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/pages/services/web-design/responsive-design.php">Responsive Web Design</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/web-design/ui-ux-design.php">UI/UX Design</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/web-design/e-commerce-design.php">Ecommerce Design</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/web-design/figma-design.php">Figma Design</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/web-design/wordpress.php">WordPress</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/web-design/woocommerce.php">WooCommerce</a></li>
+                            <li><a class="dropdown-item" href="/pages/services/web-design/ecommerce-design.php">Ecommerce Website Design</a></li>
+                            <li><a class="dropdown-item" href="/pages/services/web-design/portfolio-design.php">Portfolio Website Design</a></li>
+                            <li><a class="dropdown-item" href="/pages/services/web-design/web-app-design.php">Web App Design</a></li>
+                            <li><a class="dropdown-item" href="/pages/services/web-design/membership-design.php">Membership Website Design</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
