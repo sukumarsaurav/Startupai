@@ -85,9 +85,10 @@ include_once '../components/header.php';
                         <h3 class="h4 mb-3">AI Solutions</h3>
                         <p class="card-text">Cutting-edge artificial intelligence solutions to automate and enhance your business.</p>
                         <div class="mt-4">
-                            <a href="/pages/services/ai-services/ai-chatbot.php" class="btn btn-sm btn-outline-primary">AI Chatbots</a>
-                            <a href="/pages/services/ai-services/ai-agent.php" class="btn btn-sm btn-outline-primary mt-2">AI Agents</a>
-                            <a href="/pages/services/ai-services/voice-agent.php" class="btn btn-sm btn-outline-primary mt-2">Voice Agents</a>
+                            <a href="/pages/services/ai-services/chatbots-virtual-assistants.php" class="btn btn-sm btn-outline-primary">AI Chatbots</a>
+                            <a href="/pages/services/ai-services/machine-learning-solutions.php" class="btn btn-sm btn-outline-primary mt-2">Machine Learning</a>
+                            <a href="/pages/services/ai-services/computer-vision.php" class="btn btn-sm btn-outline-primary mt-2">Computer Vision</a>
+                            <a href="/pages/services/ai-services/model-training.php" class="btn btn-sm btn-outline-primary mt-2">AI Model Training</a>
                         </div>
                     </div>
                 </div>

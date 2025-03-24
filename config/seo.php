@@ -101,28 +101,53 @@ $seo_config = [
             ]
         ],
         'ai_services' => [
-            'title' => 'AI Solutions | Intelligent Business Automation | StartupAI',
-            'description' => 'Innovative AI solutions that automate processes, enhance decision-making, and create intelligent experiences for your customers.',
-            'keywords' => 'AI solutions, artificial intelligence, business automation, machine learning, intelligent systems',
-            'ai_chatbot' => [
-                'title' => 'AI Chatbot Development | Intelligent Conversational Agents | StartupAI',
-                'description' => 'Custom AI chatbot solutions that enhance customer service, automate support, and create engaging conversational experiences.',
-                'keywords' => 'AI chatbots, conversational AI, virtual assistants, customer service automation, intelligent chatbots'
+            'title' => 'AI & Machine Learning Services | Innovative AI Solutions | StartupAI',
+            'description' => 'Cutting-edge AI and machine learning solutions to automate processes, enhance customer experiences, and drive business growth.',
+            'keywords' => 'AI services, machine learning, artificial intelligence, automation, chatbots, data analytics',
+            'chatbots_virtual_assistants' => [
+                'title' => 'AI-Powered Chatbots & Virtual Assistants | Custom Chatbot Development | StartupAI',
+                'description' => 'Custom AI chatbot and virtual assistant solutions that enhance customer experience and streamline business operations.',
+                'keywords' => 'AI chatbots, virtual assistants, custom chatbot development, LangChain, Rasa, Dialogflow, WhatsApp chatbot'
             ],
-            'machine_learning' => [
-                'title' => 'Machine Learning Solutions | Data-Driven Intelligence | StartupAI',
-                'description' => 'Custom machine learning solutions that transform your data into valuable insights, predictions, and automated decisions.',
-                'keywords' => 'machine learning, predictive analytics, data science, ML solutions, AI algorithms'
+            'business_automation' => [
+                'title' => 'AI for Business Automation | AI-Powered Workflow Optimization | StartupAI',
+                'description' => 'Intelligent automation solutions that streamline workflows, reduce operational costs, and improve business efficiency.',
+                'keywords' => 'business automation, workflow automation, AI-powered data processing, document processing, intelligent CRM integration'
             ],
-            'ai_agent' => [
-                'title' => 'AI Agent Development | Intelligent Automation Solutions | StartupAI',
-                'description' => 'Sophisticated AI agents that automate complex business processes, integrate with your systems, and operate with minimal supervision.',
-                'keywords' => 'AI agents, intelligent automation, business process automation, autonomous systems, AI workflows'
+            'natural_language_processing' => [
+                'title' => 'Natural Language Processing (NLP) Solutions | Text Analysis | StartupAI',
+                'description' => 'Advanced NLP solutions for sentiment analysis, text classification, and speech processing to unlock insights from unstructured data.',
+                'keywords' => 'natural language processing, NLP, sentiment analysis, text summarization, speech-to-text, text-to-speech'
             ],
-            'voice_agent' => [
-                'title' => 'Voice Agent Solutions | Natural Speech Interaction | StartupAI',
-                'description' => 'Advanced voice agent solutions that provide natural, conversational experiences through spoken language interfaces.',
-                'keywords' => 'voice agents, speech recognition, conversational AI, voice interfaces, voice assistants'
+            'machine_learning_solutions' => [
+                'title' => 'AI & Machine Learning Solutions | Predictive Analytics | StartupAI',
+                'description' => 'Custom machine learning solutions that leverage predictive analytics, recommendation systems, and fraud detection to drive business value.',
+                'keywords' => 'machine learning, predictive analytics, AI recommendation systems, fraud detection, risk management'
+            ],
+            'model_training' => [
+                'title' => 'AI Model Training & Fine-Tuning | Custom AI Models | StartupAI',
+                'description' => 'Expert AI model development, training, and fine-tuning services to create tailored solutions for your specific business needs.',
+                'keywords' => 'AI model training, fine-tuning, OpenAI, GPT, Llama, custom datasets, model optimization'
+            ],
+            'computer_vision' => [
+                'title' => 'Computer Vision Solutions | Image & Video Recognition | StartupAI',
+                'description' => 'Advanced computer vision services including object detection, facial recognition, and OCR to extract insights from visual data.',
+                'keywords' => 'computer vision, image recognition, object detection, facial recognition, OCR, video analysis'
+            ],
+            'voice_speech' => [
+                'title' => 'Voice & Speech AI Solutions | Speech Recognition | StartupAI',
+                'description' => 'Innovative voice and speech AI solutions including voice assistants, speech recognition, and IVR systems for seamless voice interactions.',
+                'keywords' => 'voice AI, speech recognition, AI voice assistants, speech transcription, IVR systems'
+            ],
+            'ai_digital_marketing' => [
+                'title' => 'AI in Digital Marketing | AI-Powered Marketing Solutions | StartupAI',
+                'description' => 'Leverage AI for targeted advertising, content generation, SEO optimization, and personalized marketing campaigns.',
+                'keywords' => 'AI marketing, AI content generation, AI for SEO, personalized marketing, AI ad targeting'
+            ],
+            'industry_applications' => [
+                'title' => 'Industry-Specific AI Applications | Vertical AI Solutions | StartupAI',
+                'description' => 'Specialized AI solutions for healthcare, e-commerce, finance, real estate, and education sectors to address industry-specific challenges.',
+                'keywords' => 'healthcare AI, e-commerce AI, finance AI, real estate AI, education AI, industry-specific AI'
             ]
         ]
     ],

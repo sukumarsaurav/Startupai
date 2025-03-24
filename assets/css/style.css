@@ -77,27 +77,68 @@ body {
 
 /* Dropdown Styles */
 .dropdown-menu {
-    background-color: var(--bg-300);
     border: none;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    padding: 1rem 0;
-    border-radius: 0.5rem;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    margin-top: 10px;
 }
 
-.dropdown-item {
-    color: var(--text-100);
-    padding: 0.5rem 1.5rem;
-    transition: var(--transition);
-    font-weight: 400;
-    transition: all 0.2s;
+/* Mega Menu Styles */
+.mega-menu {
+    width: 700px;
+    padding: 20px;
 }
 
-.dropdown-item:hover, 
-.dropdown-item:focus,
-.dropdown-item.active {
-    background-color: rgba(var(--bs-primary-rgb), 0.1);
+.mega-menu .dropdown-header {
+    font-weight: 600;
     color: var(--primary);
+    padding: 8px 15px;
+    margin-top: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.mega-menu .submenu {
+    list-style: none;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.mega-menu .submenu li {
+    margin-bottom: 5px;
+}
+
+.mega-menu .submenu a {
+    color: #6c757d;
+    font-size: 0.9rem;
+    text-decoration: none;
+    display: block;
+    padding: 3px 0;
+    transition: all 0.3s ease;
+}
+
+.mega-menu .submenu a:hover {
+    color: var(--primary);
+    transform: translateX(3px);
+}
+
+.mega-menu .dropdown-item {
+    font-weight: 500;
+    color: #333;
+}
+
+.mega-menu .dropdown-item:hover {
+    background-color: transparent;
+    color: var(--primary);
+}
+
+/* Media queries for responsive mega menu */
+@media (max-width: 992px) {
+    .mega-menu {
+        width: 100%;
+        max-height: 400px;
+        overflow-y: auto;
+    }
 }
 
 /* Side Drawer */
@@ -582,13 +623,6 @@ body {
 .navbar-nav .btn-primary:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.dropdown-menu {
-    min-width: 230px;
-    padding: 1rem 0;
-    border: none;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
 
 .dropdown-item {

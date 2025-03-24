@@ -65,10 +65,15 @@ $seo_data = get_seo_data($category, $service);
                 </div>
                 <a href="#" class="drawer-item dropdown-toggle">AI Services</a>
                 <div class="drawer-submenu">
-                    <a href="/pages/services/ai-services/ai-chatbot.php">AI Chatbot</a>
-                    <a href="/pages/services/ai-services/machine-learning.php">Machine Learning</a>
-                    <a href="/pages/services/ai-services/ai-agent.php">AI Agent</a>
-                    <a href="/pages/services/ai-services/voice-agent.php">Voice Agent</a>
+                    <a href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI-Powered Chatbots & Virtual Assistants</a>
+                    <a href="/pages/services/ai-services/business-automation.php">AI for Business Automation</a>
+                    <a href="/pages/services/ai-services/natural-language-processing.php">Natural Language Processing (NLP)</a>
+                    <a href="/pages/services/ai-services/machine-learning-solutions.php">AI & Machine Learning Solutions</a>
+                    <a href="/pages/services/ai-services/model-training.php">AI Model Training & Fine-Tuning</a>
+                    <a href="/pages/services/ai-services/computer-vision.php">Computer Vision Solutions</a>
+                    <a href="/pages/services/ai-services/voice-speech.php">Voice & Speech AI Solutions</a>
+                    <a href="/pages/services/ai-services/ai-digital-marketing.php">AI in Digital Marketing</a>
+                    <a href="/pages/services/ai-services/industry-applications.php">AI for Industry-Specific Applications</a>
                 </div>
                 <a href="#" class="drawer-item dropdown-toggle">Digital Marketing</a>
                 <div class="drawer-submenu">
@@ -118,11 +123,68 @@ $seo_data = get_seo_data($category, $service);
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="/pages/services.php" role="button" data-bs-toggle="dropdown">AI Services</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="/pages/services/ai-services/ai-chatbot.php">AI Chatbots</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/ai-services/machine-learning.php">Machine Learning</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/ai-services/ai-agent.php">AI Agent</a></li>
-                            <li><a class="dropdown-item" href="/pages/services/ai-services/voice-agent.php">Voice Agent</a></li>
+                        <ul class="dropdown-menu mega-menu">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <li>
+                                        <h6 class="dropdown-header">Chatbots & Automation</h6>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI-Powered Chatbots & Virtual Assistants</a>
+                                        <ul class="submenu">
+                                            <li><a href="/pages/services/ai-services/chatbots-virtual-assistants.php#custom">Custom Chatbot Development</a></li>
+                                            <li><a href="/pages/services/ai-services/chatbots-virtual-assistants.php#support">AI Agents for Customer Support</a></li>
+                                            <li><a href="/pages/services/ai-services/chatbots-virtual-assistants.php#multilingual">Multilingual Chatbots</a></li>
+                                            <li><a href="/pages/services/ai-services/chatbots-virtual-assistants.php#platforms">WhatsApp, Messenger & Website Chatbots</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/business-automation.php">AI for Business Automation</a>
+                                        <ul class="submenu">
+                                            <li><a href="/pages/services/ai-services/business-automation.php#workflow">Workflow Automation</a></li>
+                                            <li><a href="/pages/services/ai-services/business-automation.php#data">AI-Powered Data Processing</a></li>
+                                            <li><a href="/pages/services/ai-services/business-automation.php#crm">Intelligent CRM & ERP Integration</a></li>
+                                            <li><a href="/pages/services/ai-services/business-automation.php#document">AI-Based Document Processing</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                                <div class="col-md-4">
+                                    <li>
+                                        <h6 class="dropdown-header">Language & Learning</h6>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/natural-language-processing.php">Natural Language Processing (NLP)</a>
+                                        <ul class="submenu">
+                                            <li><a href="/pages/services/ai-services/natural-language-processing.php#sentiment">Sentiment Analysis</a></li>
+                                            <li><a href="/pages/services/ai-services/natural-language-processing.php#text">Text Summarization & Classification</a></li>
+                                            <li><a href="/pages/services/ai-services/natural-language-processing.php#search">AI-Powered Search & Recommendations</a></li>
+                                            <li><a href="/pages/services/ai-services/natural-language-processing.php#speech">Speech-to-Text & Text-to-Speech</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/machine-learning-solutions.php">AI & Machine Learning Solutions</a>
+                                        <ul class="submenu">
+                                            <li><a href="/pages/services/ai-services/machine-learning-solutions.php#predictive">Predictive Analytics & Forecasting</a></li>
+                                            <li><a href="/pages/services/ai-services/machine-learning-solutions.php#recommendation">AI-Based Recommendation Systems</a></li>
+                                            <li><a href="/pages/services/ai-services/machine-learning-solutions.php#fraud">Fraud Detection & Risk Management</a></li>
+                                            <li><a href="/pages/services/ai-services/machine-learning-solutions.php#financial">AI for Financial Analysis</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                                <div class="col-md-4">
+                                    <li>
+                                        <h6 class="dropdown-header">Specialized Applications</h6>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/model-training.php">AI Model Training & Fine-Tuning</a>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/computer-vision.php">Computer Vision Solutions</a>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/voice-speech.php">Voice & Speech AI Solutions</a>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/ai-digital-marketing.php">AI in Digital Marketing</a>
+                                        <a class="dropdown-item" href="/pages/services/ai-services/industry-applications.php">Industry-Specific AI Applications</a>
+                                        <ul class="submenu">
+                                            <li><a href="/pages/services/ai-services/industry-applications.php#healthcare">Healthcare AI</a></li>
+                                            <li><a href="/pages/services/ai-services/industry-applications.php#ecommerce">E-commerce AI</a></li>
+                                            <li><a href="/pages/services/ai-services/industry-applications.php#finance">Finance & Banking AI</a></li>
+                                            <li><a href="/pages/services/ai-services/industry-applications.php#realestate">Real Estate AI</a></li>
+                                            <li><a href="/pages/services/ai-services/industry-applications.php#education">Education AI</a></li>
+                                        </ul>
+                                    </li>
+                                </div>
+                            </div>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">

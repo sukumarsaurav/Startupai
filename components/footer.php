@@ -37,10 +37,15 @@
                 <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
                     <h5 class="text-white">AI Services</h5>
                     <ul class="list-unstyled">
-                        <li><a href="/pages/services/ai-services/ai-chatbot.php">AI Chatbot</a></li>
-                        <li><a href="/pages/services/ai-services/machine-learning.php">Machine Learning</a></li>
-                        <li><a href="/pages/services/ai-services/ai-agent.php">AI Agent</a></li>
-                        <li><a href="/pages/services/ai-services/voice-agent.php">Voice Agent</a></li>
+                        <li><a href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI Chatbots & Virtual Assistants</a></li>
+                        <li><a href="/pages/services/ai-services/business-automation.php">Business Automation</a></li>
+                        <li><a href="/pages/services/ai-services/natural-language-processing.php">NLP</a></li>
+                        <li><a href="/pages/services/ai-services/machine-learning-solutions.php">ML Solutions</a></li>
+                        <li><a href="/pages/services/ai-services/model-training.php">AI Model Training</a></li>
+                        <li><a href="/pages/services/ai-services/computer-vision.php">Computer Vision</a></li>
+                        <li><a href="/pages/services/ai-services/voice-speech.php">Voice & Speech AI</a></li>
+                        <li><a href="/pages/services/ai-services/ai-digital-marketing.php">AI in Marketing</a></li>
+                        <li><a href="/pages/services/ai-services/industry-applications.php">Industry Applications</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6">
