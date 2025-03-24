@@ -32,6 +32,61 @@ $seo_data = get_seo_data($category, $service);
     <link rel="stylesheet" href="/assets/css/faq.css">
     <!-- Why Hire Us CSS -->
     <link rel="stylesheet" href="/assets/css/why-hire-us.css">
+    
+    <!-- Mega Menu Custom CSS -->
+    <style>
+        /* Mega Menu Styles */
+        .dropdown-menu.mega-menu {
+            width: 100%;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            border-radius: 0;
+            border-top: 2px solid var(--primary-color, #0d6efd);
+        }
+        
+        @media (min-width: 992px) {
+            .dropdown-menu.mega-menu {
+                position: absolute;
+                margin-top: 0;
+                min-width: 700px;
+                max-width: 1200px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+            
+            .navbar .nav-item.dropdown:hover .dropdown-menu.mega-menu {
+                display: block;
+            }
+            
+            .mega-menu .row {
+                width: 100%;
+                margin: 0;
+            }
+            
+            .mega-menu .dropdown-header {
+                padding: 8px 0;
+                font-weight: 600;
+                color: var(--primary-color, #0d6efd);
+                border-bottom: 1px solid #eee;
+                margin-bottom: 8px;
+            }
+            
+            .mega-menu .dropdown-item {
+                padding: 5px 15px;
+                font-size: 0.9rem;
+            }
+            
+            .mega-menu .col-md-3, .mega-menu .col-md-4 {
+                padding: 0 15px;
+            }
+            
+            .mega-menu li {
+                list-style: none;
+                margin-bottom: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
     <!-- Drawer Overlay -->
@@ -272,221 +327,190 @@ $seo_data = get_seo_data($category, $service);
                     <!-- Web Design Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Web Design</a>
-                        <ul class="dropdown-menu mega-menu">
+                        <div class="dropdown-menu mega-menu">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <li>
-                                        <h6 class="dropdown-header">UI/UX Design & Prototyping</h6>
-                                        <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Wireframing-&-Prototyping.php">Wireframing & Prototyping</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Interface-(UI)-Design.php">UI Design</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Experience-(UX)-Optimization.php">UX Optimization</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Accessibility-&-Usability-Testing.php">Accessibility Testing</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">Website Redesign & Revamp</h6>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Mobile-First-Design.php">Mobile-First Design</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Speed-&-Performance-Optimization.php">Speed Optimization</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Modernizing-Old-Websites.php">Modernizing Old Websites</a>
-                                    </li>
+                                    <h6 class="dropdown-header">UI/UX Design & Prototyping</h6>
+                                    <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Wireframing-&-Prototyping.php">Wireframing & Prototyping</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Interface-(UI)-Design.php">UI Design</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/User-Experience-(UX)-Optimization.php">UX Optimization</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/UI-UX-Design-&-Prototyping/Accessibility-&-Usability-Testing.php">Accessibility Testing</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">Website Redesign & Revamp</h6>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Mobile-First-Design.php">Mobile-First Design</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Speed-&-Performance-Optimization.php">Speed Optimization</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Website-Redesign-&-Revamp/Modernizing-Old-Websites.php">Modernizing Old Websites</a>
                                 </div>
                                 <div class="col-md-3">
-                                    <li>
-                                        <h6 class="dropdown-header">Responsive Design</h6>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Mobile-UI-UX-Optimization.php">Mobile UI/UX Optimization</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Cross-Browser-Compatibility.php">Cross-Browser Compatibility</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Adaptive-Web-Design.php">Adaptive Web Design</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">CMS Development</h6>
-                                        <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/WordPress-Website-Design.php">WordPress Design</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/Webflow-Development.php">Webflow Development</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/Custom-CMS-Solutions.php">Custom CMS Solutions</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Responsive Design</h6>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Mobile-UI-UX-Optimization.php">Mobile UI/UX Optimization</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Cross-Browser-Compatibility.php">Cross-Browser Compatibility</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Adaptive-Web-Design.php">Adaptive Web Design</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">CMS Development</h6>
+                                    <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/WordPress-Website-Design.php">WordPress Design</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/Webflow-Development.php">Webflow Development</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/CMS-Based-Website-Development/Custom-CMS-Solutions.php">Custom CMS Solutions</a>
                                 </div>
                                 <div class="col-md-3">
-                                    <li>
-                                        <h6 class="dropdown-header">Industry-Specific Design</h6>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Healthcare-Websites.php">Healthcare</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Real-Estate-Websites.php">Real Estate</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Finance-Websites.php">Finance</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Education-Websites.php">Education</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Hospitality-Websites.php">Hospitality</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Legal-Websites.php">Legal</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Industry-Specific Design</h6>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Healthcare-Websites.php">Healthcare</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Real-Estate-Websites.php">Real Estate</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Finance-Websites.php">Finance</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Education-Websites.php">Education</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Hospitality-Websites.php">Hospitality</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Industry-Specific-Website-Design/Legal-Websites.php">Legal</a>
                                 </div>
                                 <div class="col-md-3">
-                                    <li>
-                                        <h6 class="dropdown-header">E-commerce Design</h6>
-                                        <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/Shopify-Development.php">Shopify Development</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/WooCommerce-Development.php">WooCommerce Development</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/Custom-E-commerce-Solutions.php">Custom E-commerce</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">Custom Web Design</h6>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Business-Websites.php">Business Websites</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Portfolio-Websites.php">Portfolio Websites</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Personal-Blogs.php">Personal Blogs</a>
-                                        <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Landing-Pages.php">Landing Pages</a>
-                                    </li>
+                                    <h6 class="dropdown-header">E-commerce Design</h6>
+                                    <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/Shopify-Development.php">Shopify Development</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/WooCommerce-Development.php">WooCommerce Development</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/E-commerce-Website-Design/Custom-E-commerce-Solutions.php">Custom E-commerce</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">Custom Web Design</h6>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Business-Websites.php">Business Websites</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Portfolio-Websites.php">Portfolio Websites</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Personal-Blogs.php">Personal Blogs</a>
+                                    <a class="dropdown-item" href="/pages/services/web-design/Custom-Website-Design/Landing-Pages.php">Landing Pages</a>
                                 </div>
                             </div>
-                        </ul>
+                        </div>
                     </li>
                     
                     <!-- App Development Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">App Development</a>
-                        <ul class="dropdown-menu mega-menu">
+                        <div class="dropdown-menu mega-menu">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <li>
-                                        <h6 class="dropdown-header">Web Application Development</h6>
-                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/custom-web-apps.php">Custom Web Applications</a>
-                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/API-Development-&-Integration.php">API Development & Integration</a>
-                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/Progressive-Web-Apps.php">Progressive Web Apps</a>
-                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/E-commerce-Solutions.php">E-commerce Solutions</a>
-                                        <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/SaaS-Development.php">SaaS Development</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Web Application Development</h6>
+                                    <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/custom-web-apps.php">Custom Web Applications</a>
+                                    <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/API-Development-&-Integration.php">API Development & Integration</a>
+                                    <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/Progressive-Web-Apps.php">Progressive Web Apps</a>
+                                    <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/E-commerce-Solutions.php">E-commerce Solutions</a>
+                                    <a class="dropdown-item" href="/pages/services/app-development/web-application-devlopment/SaaS-Development.php">SaaS Development</a>
                                 </div>
                                 <div class="col-md-4">
-                                    <li>
-                                        <h6 class="dropdown-header">Backend & Database</h6>
-                                        <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/Database-Design-&-Management.php">Database Design & Management</a>
-                                        <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/DevOps-&-CI-CD.php">DevOps & CI/CD</a>
-                                        <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/Serverless-Architecture.php">Serverless Architecture</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Backend & Database</h6>
+                                    <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/Database-Design-&-Management.php">Database Design & Management</a>
+                                    <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/DevOps-&-CI-CD.php">DevOps & CI/CD</a>
+                                    <a class="dropdown-item" href="/pages/services/app-development/Backend-&-Database/Serverless-Architecture.php">Serverless Architecture</a>
                                 </div>
                                 <div class="col-md-4">
-                                    <li>
-                                        <h6 class="dropdown-header">Custom Software Solutions</h6>
-                                        <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/AI-Powered-Applications.php">AI-Powered Applications</a>
-                                        <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/CRM-&-ERP-Solutions.php">CRM & ERP Solutions</a>
-                                        <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/IoT-&-Embedded-Systems.php">IoT & Embedded Systems</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Custom Software Solutions</h6>
+                                    <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/AI-Powered-Applications.php">AI-Powered Applications</a>
+                                    <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/CRM-&-ERP-Solutions.php">CRM & ERP Solutions</a>
+                                    <a class="dropdown-item" href="/pages/services/app-development/Custom-Software-Solutions/IoT-&-Embedded-Systems.php">IoT & Embedded Systems</a>
                                 </div>
                             </div>
-                        </ul>
+                        </div>
                     </li>
                     
                     <!-- AI Services Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">AI Services</a>
-                        <ul class="dropdown-menu mega-menu">
+                        <div class="dropdown-menu mega-menu">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <li>
-                                        <h6 class="dropdown-header">Conversational AI</h6>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI Chatbots & Assistants</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/chatbots/customer-support-bots.php">Customer Support Bots</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/chatbots/sales-bots.php">Conversational Sales Bots</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/chatbots/multilingual-bots.php">Multilingual Chatbots</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">Business AI</h6>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/business-automation.php">Business Automation</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/business-automation/workflow-automation.php">Workflow Automation</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/business-automation/document-processing.php">Document Processing</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Conversational AI</h6>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI Chatbots & Assistants</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/chatbots/customer-support-bots.php">Customer Support Bots</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/chatbots/sales-bots.php">Conversational Sales Bots</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/chatbots/multilingual-bots.php">Multilingual Chatbots</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">Business AI</h6>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/business-automation.php">Business Automation</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/business-automation/workflow-automation.php">Workflow Automation</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/business-automation/document-processing.php">Document Processing</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/business-automation/predictive-analytics.php">Predictive Analytics</a>
                                 </div>
                                 <div class="col-md-4">
-                                    <li>
-                                        <h6 class="dropdown-header">Language & Learning</h6>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/natural-language-processing.php">Natural Language Processing</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/natural-language-processing/sentiment-analysis.php">Sentiment Analysis</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/natural-language-processing/text-classification.php">Text Classification</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/machine-learning-solutions.php">Machine Learning Solutions</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/machine-learning/recommendation-systems.php">Recommendation Systems</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/machine-learning/forecasting.php">Predictive Forecasting</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Language AI</h6>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/natural-language-processing.php">Natural Language Processing</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/natural-language-processing/sentiment-analysis.php">Sentiment Analysis</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/natural-language-processing/text-classification.php">Text Classification</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/natural-language-processing/translation-services.php">AI Translation Services</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">Machine Learning</h6>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/machine-learning-solutions.php">Machine Learning Solutions</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/machine-learning/recommendation-systems.php">Recommendation Systems</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/machine-learning/anomaly-detection.php">Anomaly Detection</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/machine-learning/forecasting.php">Predictive Forecasting</a>
                                 </div>
                                 <div class="col-md-4">
-                                    <li>
-                                        <h6 class="dropdown-header">Advanced AI</h6>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/model-training.php">Model Training & Fine-Tuning</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/computer-vision.php">Computer Vision Solutions</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/voice-speech.php">Voice & Speech AI</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">Industry Solutions</h6>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/ai-digital-marketing.php">AI in Digital Marketing</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/industry-applications.php">Industry-Specific AI</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/industry-applications/healthcare-ai.php">Healthcare AI</a>
-                                        <a class="dropdown-item" href="/pages/services/ai-services/industry-applications/fintech-ai.php">Fintech AI</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Advanced AI</h6>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/model-training.php">Model Training & Fine-Tuning</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/computer-vision.php">Computer Vision Solutions</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/voice-speech.php">Voice & Speech AI</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">Industry Solutions</h6>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/ai-digital-marketing.php">AI in Digital Marketing</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/industry-applications.php">Industry-Specific AI</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/industry-applications/healthcare-ai.php">Healthcare AI</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/industry-applications/fintech-ai.php">Fintech AI</a>
+                                    <a class="dropdown-item" href="/pages/services/ai-services/industry-applications/retail-ai.php">Retail & E-commerce AI</a>
                                 </div>
                             </div>
-                        </ul>
+                        </div>
                     </li>
                     
                     <!-- Digital Marketing Dropdown -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Digital Marketing</a>
-                        <ul class="dropdown-menu mega-menu">
+                        <div class="dropdown-menu mega-menu">
                             <div class="row">
                                 <div class="col-md-3">
-                                    <li>
-                                        <h6 class="dropdown-header">SEO Services</h6>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/seo/on-page-seo.php">On-Page SEO</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/seo/off-page-seo.php">Off-Page SEO</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/seo/technical-seo.php">Technical SEO</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/seo/local-seo.php">Local SEO</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/seo/ecommerce-seo.php">E-commerce SEO</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">PPC Advertising</h6>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/ppc/google-ads-management.php">Google Ads Management</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/ppc/facebook-ads.php">Facebook Ads</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/ppc/linkedin-ads.php">LinkedIn Ads</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/ppc/remarketing-campaigns.php">Remarketing</a>
-                                    </li>
+                                    <h6 class="dropdown-header">SEO Services</h6>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/seo/on-page-seo.php">On-Page SEO</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/seo/off-page-seo.php">Off-Page SEO</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/seo/technical-seo.php">Technical SEO</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/seo/local-seo.php">Local SEO</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/seo/ecommerce-seo.php">E-commerce SEO</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">PPC Advertising</h6>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/ppc/google-ads-management.php">Google Ads Management</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/ppc/facebook-ads.php">Facebook Ads</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/ppc/linkedin-ads.php">LinkedIn Ads</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/ppc/remarketing-campaigns.php">Remarketing</a>
                                 </div>
                                 <div class="col-md-3">
-                                    <li>
-                                        <h6 class="dropdown-header">Content Marketing</h6>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/content-marketing/content-strategy.php">Content Strategy</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/content-marketing/blogging-services.php">Blogging Services</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/content-marketing/copywriting.php">Copywriting</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/content-marketing/video-marketing.php">Video Marketing</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">Email Marketing</h6>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/email-marketing/email-campaigns.php">Email Campaigns</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/email-marketing/newsletter-management.php">Newsletter Management</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/email-marketing/automation-sequences.php">Automation Sequences</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Content Marketing</h6>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/content-marketing/content-strategy.php">Content Strategy</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/content-marketing/blogging-services.php">Blogging Services</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/content-marketing/copywriting.php">Copywriting</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/content-marketing/video-marketing.php">Video Marketing</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">Email Marketing</h6>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/email-marketing/email-campaigns.php">Email Campaigns</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/email-marketing/newsletter-management.php">Newsletter Management</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/email-marketing/automation-sequences.php">Automation Sequences</a>
                                 </div>
                                 <div class="col-md-3">
-                                    <li>
-                                        <h6 class="dropdown-header">Social Media Marketing</h6>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/social-media/social-media-management.php">Social Media Management</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/social-media/social-media-advertising.php">Social Media Advertising</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/social-media/influencer-marketing.php">Influencer Marketing</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/social-media/community-management.php">Community Management</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">Conversion Optimization</h6>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/cro/ab-testing.php">A/B Testing</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/cro/landing-page-optimization.php">Landing Page Optimization</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/cro/user-experience-analysis.php">UX Analysis</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Social Media Marketing</h6>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/social-media/social-media-management.php">Social Media Management</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/social-media/social-media-advertising.php">Social Media Advertising</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/social-media/influencer-marketing.php">Influencer Marketing</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/social-media/community-management.php">Community Management</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">Conversion Optimization</h6>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/cro/ab-testing.php">A/B Testing</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/cro/landing-page-optimization.php">Landing Page Optimization</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/cro/user-experience-analysis.php">UX Analysis</a>
                                 </div>
                                 <div class="col-md-3">
-                                    <li>
-                                        <h6 class="dropdown-header">Reputation Management</h6>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/reputation-management/review-management.php">Review Management</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/reputation-management/brand-monitoring.php">Brand Monitoring</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/reputation-management/crisis-management.php">Crisis Management</a>
-                                    </li>
-                                    <li>
-                                        <h6 class="dropdown-header">Industry Marketing</h6>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/industry-specific/healthcare-marketing.php">Healthcare Marketing</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/industry-specific/real-estate-marketing.php">Real Estate Marketing</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/industry-specific/ecommerce-marketing.php">E-commerce Marketing</a>
-                                        <a class="dropdown-item" href="/pages/services/digital-marketing/industry-specific/saas-marketing.php">SaaS Marketing</a>
-                                    </li>
+                                    <h6 class="dropdown-header">Reputation Management</h6>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/reputation-management/review-management.php">Review Management</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/reputation-management/brand-monitoring.php">Brand Monitoring</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/reputation-management/crisis-management.php">Crisis Management</a>
+                                    
+                                    <h6 class="dropdown-header mt-3">Industry Marketing</h6>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/industry-specific/healthcare-marketing.php">Healthcare Marketing</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/industry-specific/real-estate-marketing.php">Real Estate Marketing</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/industry-specific/ecommerce-marketing.php">E-commerce Marketing</a>
+                                    <a class="dropdown-item" href="/pages/services/digital-marketing/industry-specific/saas-marketing.php">SaaS Marketing</a>
                                 </div>
                             </div>
-                        </ul>
+                        </div>
                     </li>
                     
                     <li class="nav-item"><a class="nav-link" href="/pages/about.php">About</a></li>
