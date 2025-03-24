@@ -35,56 +35,61 @@ $seo_data = get_seo_data($category, $service);
     
     <!-- Mega Menu Custom CSS -->
     <style>
-        /* Mega Menu Styles */
+        /* Mega Menu Styling */
         .dropdown-menu.mega-menu {
             width: 100%;
-            left: 0;
-            right: 0;
             padding: 20px;
-            border-radius: 0;
-            border-top: 2px solid var(--primary-color, #0d6efd);
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
-        
-        @media (min-width: 992px) {
-            .dropdown-menu.mega-menu {
-                position: absolute;
-                margin-top: 0;
-                min-width: 700px;
-                max-width: 1200px;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-            
-            .navbar .nav-item.dropdown:hover .dropdown-menu.mega-menu {
-                display: block;
-            }
-            
-            .mega-menu .row {
-                width: 100%;
-                margin: 0;
-            }
-            
-            .mega-menu .dropdown-header {
-                padding: 8px 0;
-                font-weight: 600;
-                color: var(--primary-color, #0d6efd);
-                border-bottom: 1px solid #eee;
-                margin-bottom: 8px;
-            }
-            
-            .mega-menu .dropdown-item {
-                padding: 5px 15px;
-                font-size: 0.9rem;
-            }
-            
-            .mega-menu .col-md-3, .mega-menu .col-md-4 {
-                padding: 0 15px;
-            }
-            
-            .mega-menu li {
-                list-style: none;
-                margin-bottom: 15px;
-            }
+
+        .mega-menu .row {
+            margin: 0 -15px;
+        }
+
+        .mega-menu .col-md-3 {
+            padding: 0 20px;
+            margin-bottom: 15px;
+        }
+
+        .mega-menu h6 {
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+
+        .mega-menu a {
+            display: block;
+            padding: 8px 0;
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .mega-menu a:hover {
+            color: #007bff;
+        }
+
+        /* Fix for overlapping columns */
+        .mega-menu .mega-menu-column {
+            min-width: 250px;
+            margin-right: 15px;
+        }
+
+        .mega-menu .mega-menu-section {
+            margin-bottom: 20px;
+        }
+
+        .mega-menu .mega-menu-section:last-child {
+            margin-bottom: 0;
+        }
+
+        /* Ensure proper spacing in dropdown items */
+        .dropdown-item {
+            padding: 8px 15px;
+            white-space: normal;
         }
     </style>
 </head>
