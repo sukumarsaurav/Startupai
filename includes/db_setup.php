@@ -8,6 +8,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
  */
 class DatabaseSetup {
     private $conn;
+    private $is_pdo_compat = false;
     private $tables = [
         'testimonials' => [
             'create_sql' => "CREATE TABLE IF NOT EXISTS `testimonials` (
@@ -38,6 +39,11 @@ class DatabaseSetup {
 
     public function __construct($connection) {
         $this->conn = $connection;
+        
+        // Check if we're using the PDO compatibility layer
+        if (get_class($connection) === 'MySQLiCompat') {
+            $this->is_pdo_compat = true;
+        }
     }
 
     /**
@@ -45,8 +51,15 @@ class DatabaseSetup {
      */
     public function tableExists($tableName) {
         try {
-            $result = $this->conn->query("SHOW TABLES LIKE '$tableName'");
-            return $result && $result->num_rows > 0;
+            if ($this->is_pdo_compat) {
+                // Using PDO compatibility layer
+                $result = $this->conn->query("SHOW TABLES LIKE '$tableName'");
+                return $result && $result->num_rows > 0;
+            } else {
+                // Native mysqli
+                $result = $this->conn->query("SHOW TABLES LIKE '$tableName'");
+                return $result && $result->num_rows > 0;
+            }
         } catch (Exception $e) {
             error_log("Error checking if table '$tableName' exists: " . $e->getMessage());
             return false;
@@ -64,7 +77,7 @@ class DatabaseSetup {
 
         try {
             // Create the table
-            $this->conn->query($this->tables[$tableName]['create_sql']);
+            $createResult = $this->conn->query($this->tables[$tableName]['create_sql']);
             
             // Check if the table was created
             if ($this->tableExists($tableName)) {
