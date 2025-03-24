@@ -24,6 +24,8 @@
                         <li><a href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Cross-Browser-Compatibility.php">Cross-Browser Compatibility</a></li>
                         <li><a href="/pages/services/web-design/Responsive-&-Mobile-Friendly-Design/Adaptive-Web-Design.php">Adaptive Web Design</a></li>
                         <li><a href="/pages/services/web-design/CMS-Based-Website-Development/WordPress-Website-Design.php">WordPress Design</a></li>
+                        <li><a href="/pages/services/web-design/CMS-Based-Website-Development/Webflow-Development.php">Webflow Development</a></li>
+                        <li><a href="/pages/services/web-design/CMS-Based-Website-Development/Custom-CMS-Solutions.php">Custom CMS Solutions</a></li>
                         <li><a href="/pages/services/web-design/E-commerce-Website-Design/Shopify-Development.php">Shopify Development</a></li>
                         <li><a href="/pages/services/web-design/Custom-Website-Design/Business-Websites.php">Business Websites</a></li>
                     </ul>
@@ -46,21 +48,54 @@
                         <div class="col-12 mb-4">
                             <h5 class="text-white">AI Services</h5>
                             <ul class="list-unstyled">
-                                <li><a href="/pages/services/ai-services/chatbots-virtual-assistants.php">AI Chatbots & Assistants</a></li>
-                                <li><a href="/pages/services/ai-services/business-automation.php">Business Automation</a></li>
-                                <li><a href="/pages/services/ai-services/natural-language-processing.php">NLP Solutions</a></li>
-                                <li><a href="/pages/services/ai-services/machine-learning-solutions.php">Machine Learning</a></li>
-                                <li><a href="/pages/services/ai-services/computer-vision.php">Computer Vision</a></li>
+                                <li><strong class="text-white-50">Conversational:</strong> <a href="/pages/services/ai-services/chatbots-virtual-assistants.php">Chatbots</a> | 
+                                <a href="/pages/services/ai-services/chatbots/customer-support-bots.php">Support Bots</a> | 
+                                <a href="/pages/services/ai-services/chatbots/sales-bots.php">Sales Bots</a></li>
+                                
+                                <li><strong class="text-white-50">Business:</strong> <a href="/pages/services/ai-services/business-automation.php">Automation</a> | 
+                                <a href="/pages/services/ai-services/business-automation/workflow-automation.php">Workflow</a> | 
+                                <a href="/pages/services/ai-services/business-automation/document-processing.php">Documents</a></li>
+                                
+                                <li><strong class="text-white-50">Language:</strong> <a href="/pages/services/ai-services/natural-language-processing.php">NLP</a> | 
+                                <a href="/pages/services/ai-services/natural-language-processing/sentiment-analysis.php">Sentiment</a> | 
+                                <a href="/pages/services/ai-services/natural-language-processing/text-classification.php">Classification</a></li>
+                                
+                                <li><strong class="text-white-50">Learning:</strong> <a href="/pages/services/ai-services/machine-learning-solutions.php">ML Solutions</a> | 
+                                <a href="/pages/services/ai-services/model-training.php">Model Training</a></li>
+                                
+                                <li><strong class="text-white-50">Advanced:</strong> <a href="/pages/services/ai-services/computer-vision.php">Computer Vision</a> | 
+                                <a href="/pages/services/ai-services/voice-speech.php">Voice & Speech</a></li>
+                                
+                                <li><strong class="text-white-50">Industry:</strong> <a href="/pages/services/ai-services/ai-digital-marketing.php">Digital Marketing</a> | 
+                                <a href="/pages/services/ai-services/industry-applications.php">Industry Solutions</a></li>
                             </ul>
                         </div>
                         <div class="col-12">
                             <h5 class="text-white">Digital Marketing</h5>
                             <ul class="list-unstyled">
-                                <li><a href="/pages/services/digital-marketing/seo.php">SEO Services</a></li>
-                                <li><a href="/pages/services/digital-marketing/content-marketing.php">Content Marketing</a></li>
-                                <li><a href="/pages/services/digital-marketing/social-media.php">Social Media Marketing</a></li>
-                                <li><a href="/pages/services/digital-marketing/email-marketing.php">Email Marketing</a></li>
-                                <li><a href="/pages/services/digital-marketing/google-ads.php">Google Ads</a></li>
+                                <li><strong class="text-white-50">SEO:</strong> <a href="/pages/services/digital-marketing/seo/on-page-seo.php">On-Page</a> | 
+                                <a href="/pages/services/digital-marketing/seo/technical-seo.php">Technical</a> | 
+                                <a href="/pages/services/digital-marketing/seo/local-seo.php">Local</a></li>
+                                
+                                <li><strong class="text-white-50">Content:</strong> <a href="/pages/services/digital-marketing/content-marketing/content-strategy.php">Strategy</a> | 
+                                <a href="/pages/services/digital-marketing/content-marketing/blogging-services.php">Blogging</a> | 
+                                <a href="/pages/services/digital-marketing/content-marketing/copywriting.php">Copywriting</a></li>
+                                
+                                <li><strong class="text-white-50">Social:</strong> <a href="/pages/services/digital-marketing/social-media/social-media-management.php">Management</a> | 
+                                <a href="/pages/services/digital-marketing/social-media/social-media-advertising.php">Advertising</a></li>
+                                
+                                <li><strong class="text-white-50">PPC:</strong> <a href="/pages/services/digital-marketing/ppc/google-ads-management.php">Google Ads</a> | 
+                                <a href="/pages/services/digital-marketing/ppc/facebook-ads.php">Facebook</a> | 
+                                <a href="/pages/services/digital-marketing/ppc/linkedin-ads.php">LinkedIn</a></li>
+                                
+                                <li><strong class="text-white-50">Email:</strong> <a href="/pages/services/digital-marketing/email-marketing/email-campaigns.php">Campaigns</a> | 
+                                <a href="/pages/services/digital-marketing/email-marketing/newsletter-management.php">Newsletter</a></li>
+                                
+                                <li><strong class="text-white-50">CRO:</strong> <a href="/pages/services/digital-marketing/cro/ab-testing.php">A/B Testing</a> | 
+                                <a href="/pages/services/digital-marketing/cro/landing-page-optimization.php">Landing Page</a></li>
+                                
+                                <li><strong class="text-white-50">Reputation:</strong> <a href="/pages/services/digital-marketing/reputation-management/review-management.php">Reviews</a> | 
+                                <a href="/pages/services/digital-marketing/reputation-management/brand-monitoring.php">Brand</a></li>
                             </ul>
                         </div>
                     </div>
@@ -76,7 +111,8 @@
                         <a href="/pages/services/web-design/Industry-Specific-Website-Design/Education-Websites.php" class="btn btn-outline-light btn-sm m-1">Education</a>
                         <a href="/pages/services/web-design/Industry-Specific-Website-Design/Hospitality-Websites.php" class="btn btn-outline-light btn-sm m-1">Hospitality</a>
                         <a href="/pages/services/web-design/Industry-Specific-Website-Design/Legal-Websites.php" class="btn btn-outline-light btn-sm m-1">Legal</a>
-                        <a href="/pages/services/ai-services/industry-applications.php#ecommerce" class="btn btn-outline-light btn-sm m-1">E-commerce</a>
+                        <a href="/pages/services/digital-marketing/industry-specific/ecommerce-marketing.php" class="btn btn-outline-light btn-sm m-1">E-commerce</a>
+                        <a href="/pages/services/digital-marketing/industry-specific/saas-marketing.php" class="btn btn-outline-light btn-sm m-1">SaaS</a>
                     </div>
                 </div>
             </div>
